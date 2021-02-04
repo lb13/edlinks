@@ -1,0 +1,212 @@
+* {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    color: #0b0c0c;
+}
+
+a:link {
+    color: #1d70b8;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #003078
+}
+
+a:visited {
+    color: #4c2c92;
+}
+
+a:active {
+    color: #0b0c0c;
+}
+
+.tag:link {
+    color: #0b0c0c;
+    text-decoration: none;
+}
+
+.tag:hover {
+    color: #0b0c0c;
+    text-decoration: none!important;
+    background-color: #ffdd00;
+}
+
+.tag:visited {
+    color: #0b0c0c;
+}
+
+/* 
+These heading pseudo elements are for
+adjusting the page scroll to account
+for the fixed navbar.
+
+Borrowed from CSS Tricks!
+https://css-tricks.com/hash-tag-links-padding/
+*/
+h1::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -60px; 
+    height: 60px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+
+h2::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -60px; 
+    height: 60px; 
+    visibility: hidden; 
+    pointer-events: none;
+}
+
+h3::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -60px; 
+    height: 60px; 
+    visibility: hidden; 
+    pointer-events: none;
+}
+
+h4::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -60px; 
+    height: 60px; 
+    visibility: hidden; 
+    pointer-events: none;
+}
+/* End of heading pseudo elements */
+
+sup {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+  }
+  
+  sub {
+    vertical-align: baseline;
+    position: relative;
+    top: 0.4em; 
+  }
+
+.ocrs-activity {
+    border-left: 7px solid #22a94b!important;
+    margin-bottom:20px;
+}
+
+.ocrs-definition {
+    border-left: 7px solid #032539!important;
+    margin-bottom:20px;
+}
+
+blockquote {
+    background-color:#fff!important;
+    box-shadow:0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
+    color:#4a4a4a;
+    max-width:100%;
+    position:relative;
+    border-left: 7px solid #FFC500!important;
+    margin-bottom: 25px!important;
+}
+
+.smallbanner {
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 200px!important;
+    object-fit: cover;
+  }
+
+.mediumbanner {
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 300px!important;
+    object-fit: cover;
+  }
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: lightgreen;
+    border: 1px solid green;
+    color: green;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 100%;
+    margin-left: 0px;
+}
+
+.tooltip .tooltiptext {
+    visibility: none;
+}
+
+.floating {
+    position: fixed;
+    bottom: 0px;
+    right: 40px;
+    margin: 0;
+    padding: 0;
+    border-radius: 90px;
+}
+
+.report {
+    background-color: #FDD9AA;
+    border: 1px solid #FA991C;
+    color: white;
+    font-size: 3rem;;
+    width: 80px;
+    height: 80px;
+}
+
+.report:hover {
+    background-color: #FA991C;
+    border: 1px solid #FDD9AA;
+    cursor: pointer;
+}
+
+strong {
+    color: inherit;
+}
+
+.content p {
+    line-height: 2rem;
+    font-size: 1.1rem;
+    overflow-wrap: break-word;
+}
+
+footer p>a:link {
+    color: inherit;
+    border-bottom: 2px dotted #FFF;
+}
+
+footer p>a:visited {
+    color: inherit;
+    border-bottom: 2px dotted #FFF;
+}
+
+footer p>a:hover {
+    color: inherit;
+    border-bottom: 4px solid #FFF;
+}
+
+.input:focus {
+    outline: 5px solid #ffdd00
+}
