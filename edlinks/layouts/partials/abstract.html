@@ -1,0 +1,65 @@
+<section style="background-color: #1c768f" class="section has-text-white">
+
+    <div class="columns">
+
+        <div style="border-left: 10px solid #FA991C" class="column is-3 is-offset-1">
+
+            {{ if (isset .Params "author") }}
+            <p><span style="color: #032539">Page author:</span> <a href="/a/{{ urlize .Params.author }}">{{ .Params.author }}</a></p>
+            {{ end }}
+
+            <p><span style="color: #032539">This page published on:</span> {{ .PublishDate.Format "02/01/2006" }}</p>
+
+            <p><span style="color: #032539">Last modified:</span> {{ with .Params.LastModifiedDate }}{{ dateFormat "02/01/2006" . }}{{ end }}</p>
+
+            {{ if (isset .Params "wikipedia") }}
+            <p><span style="color: #032539">Wikipedia:</span> <a target="_blank" href="{{ .Params.wikipedia }}">{{ .Params.title }}</a></p>
+            {{ end }}
+
+            {{ if (isset .Params "academia") }}
+            <p><span style="color: #032539">Academia:</span> <a target="_blank" href="{{ .Params.academia }}">{{ .Params.title }}</a></p>
+            {{ end }}
+
+            {{ if (isset .Params "sourceauthor") }}
+            {{ if (isset .Params "authorpage") }}
+            <p><span style="color: #032539">Author(s):</span> <a href="{{ .Params.authorpage }}">{{ .Params.sourceauthor }}</a></p>
+            {{ else }}
+            <p><span style="color: #032539">Author(s):</span> {{ .Params.sourceauthor }}</p>
+            {{ end }}
+            {{ end }}
+
+            {{ if (isset .Params "translator")}}
+            <p><span style="color: #032539">Translator:</span> {{ .Params.translator }}</p>
+            {{ end }}
+
+            {{ if (isset .Params "editor")}}
+            <p><span style="color: #032539">Editor(s):</span> {{ .Params.editor }}</p>
+            {{ end }}
+
+            {{ if (isset .Params "editionyear")}}
+            <p><span style="color: #032539">Edition published in:</span> {{ .Params.editionyear }}</p>
+            {{ end }}
+
+            {{ if (isset .Params "originalyear")}}
+            <p><span style="color: #032539">Original published in:</span> {{ .Params.originalyear }}</p>
+            {{ end }}
+
+            {{ if (isset .Params "publisher")}}
+            <p><span style="color: #032539">Published by:</span> {{ .Params.publisher }}</p>
+            {{ end }}
+
+            {{ if (isset .Params "location")}}
+            <p><span style="color: #032539">Location:</span> {{ .Params.location }}</p>
+            {{ end }}
+
+        </div>
+
+
+        <div style="border-left: 10px solid #FA991C" class="column is-7">
+
+            {{ .Params.abstract}}
+
+        </div>
+
+    </div>
+</section>

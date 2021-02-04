@@ -1,0 +1,25 @@
+{{ with .Params.books }}
+
+<h2>This article is part of the following books:</h2>
+<br>
+{{ range . }}
+<div class="card has-text-centered">
+    <div class="card-content">
+        <div class="content">
+            <p class="title">{{ .Name }}</p>
+            <a class="button is-success" href="{{ .Link }}">Book Contents</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <a class="is-size-4 card-footer-item" href="{{ .PrevPageLink }}"><span class="icon has-text-info">
+                <i class="fas fa-arrow-circle-left"></i>
+              </span> &nbsp;&nbsp;Back</a>
+        <a class="is-size-4 card-footer-item" href="{{ .NextPageLink }}">Forward &nbsp;&nbsp;<span class="icon has-text-info">
+                <i class="fas fa-arrow-circle-right"></i>
+              </span></a>
+    </footer>
+</div>
+<hr>
+{{ end }}
+
+{{ end }}

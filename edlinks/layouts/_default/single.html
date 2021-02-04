@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+
+    {{ partial "head.html" . }}
+
+    <body>
+        {{ partial "navbar.html" . }}
+
+        <section style="background-color: #032539" class="hero is-small">
+            <div class="hero-body">
+                <div class="container has-text-white has-text-centered">
+                    <h1 class="title has-text-white is-size-1">
+                    {{ .Title }}
+                    </h1>
+                </div>
+            </div>
+        </section>
+        
+        {{ partial "abstract.html" . }}
+
+        {{ if (isset .Params "image" )}}
+        <img src="/img/images/{{ .Params.image }}" class="mediumbanner">
+        {{ end }}
+
+        <section style="background-color: #FAFAFA; margin-bottom: 0px" class="section content">
+          <div class="columns">
+              <div class="column is-8 is-offset-2">
+                {{ if (isset .Params "categories") }}
+                {{ range .Params.categories }}
+                <p style="background-color: #032539; color: #FFF; padding: 5px; margin: 0px 0px 10px 0px; display: inline-block"><a style="border-bottom: none;" href="/categories/{{ . | urlize }}">{{ . }}</a></p>
+                {{ end }}
+                {{ else }}
+                {{ end }}
+                    <div class="item-taglist">
+                        {{ range .Params.tags }}
+                        <span><a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a></span>&nbsp;
+                        {{ end }}
+                    </div>
+                    <h1>Table of Contents</h1>
+                    {{ .TableOfContents }}
+
+                    {{ .Content }}
+  
+                    {{ partial "book-block.html" . }}
+              </div>
+          </div>
+            
+        </section>
+
+        <!-- CONTROL PANEL -->
+        <div id="controlpanel" class="level is-mobile" style="position: fixed; bottom: 0px; margin: 0px; padding: 5px; width: 100%; background-color: #DADADA">
+            <div class="level-item has-text-centered">
+                <a id="launch-search-modal" style="color: inherit">
+                    <p class="heading">Search</p>
+                    <p class="title">
+                        <i class="fas fa-search"></i>
+                    </p>
+                </a>
+            </div>
+
+            <div class="level-item has-text-centered">
+                <a id="report" href="#top" style="color: inherit">
+                    <p class="heading">Report</p>
+                    <p class="title">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </p>
+                </a>
+            </div>
+
+            <div class="level-item has-text-centered">
+                <a href="#top" style="color: inherit">
+                    <p class="heading">Top</p>
+                    <p class="title">
+                        <i class="fas fa-chevron-circle-up"></i>
+                    </p>
+                </a>
+            </div>
+
+        </div>
+        <!-- CONTROL PANEL -->
+
+        {{ partial "footer.html" . }}
+
+        <!-- SEARCH MODAL -->
+        <div id="search-modal" class="modal">
+            <div class="modal-background"></div>
+            <div class="container is-fluid" style="position: absolute; top: 25px">
+                <div class="columns is-mobile">
+                    <div class="column is-10">
+                        <input style="font-size: 1.5rem" onkeyup="m_search()" id="mobile-input" placeholder="Search site" style="margin-bottom: 10px;" type="text" class="input">
+                        {{ range .Site.Pages.ByTitle }}
+                        <p class="m_result-item" style="display: none; padding: 5px; border-bottom: 1px solid grey">
+                            <a class="m_result-link" style="color: white;" href="{{ .Permalink }}">
+                               {{ .Title }}
+                            </a>
+                        </p>
+                        <p class="m_searchstring" style="display: none">
+
+                            {{ with .Params.categories }}
+                            {{ . }}
+                            {{ end }}
+                            
+                            {{ with .Params.sourcetypes }}
+                            {{ . }}
+                            {{ end }}
+                            
+                            {{ .Title }}
+                            
+                            {{ with .Params.sourceauthor }}
+                            {{ . }}
+                            {{ end }}
+                            
+                            {{ with .Params.originalyear }}
+                            {{ . }}
+                            {{ end }}
+                            
+                            {{ with .Params.abstract }}
+                            {{ . }}
+                            {{ end }}
+                            
+                            {{ with .Params.tags }}
+                            {{ . }}
+                            {{ end }}
+                            
+                        </p>
+                        {{ end }}
+                    </div>
+                    <div class="column is-2">
+                        <button onclick="closeModal()" class="has-background-danger modal-close is-large"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF SEARCH MODAL -->
+
+        <div id="report-modal" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="box">
+                    <h2 class="subtitle">Something wrong? Let us know!</h2>
+                    <form name="report" method="POST" data-netlify="true">
+    
+                        <div class="field">
+                            <label for="name" class="label">Name</label>
+                            <div class="control">
+                            <input name="name" class="input" type="text" id="name" placeholder="Tell us your name...">
+                            </div>
+                        </div>
+                        
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control has-icons-left has-icons-right">
+                            <input name="email" for="email" class="input" type="email" id="email" placeholder="you@email.com" value="">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            </div>
+                        </div>
+    
+                        <div class="field">
+                            <label style="display: none" for="page" class="label">Page</label>
+                            <div class="control">
+                            <input type="hidden" name="page" class="input" id="page" value="{{ .Permalink }}" readonly>
+                            </div>
+                        </div>
+                        
+                        <div class="field">
+                            <label for="message" class="label">Message</label>
+                            <div class="control">
+                            <textarea name="message" class="textarea" id="message" placeholder="I have a question about the {{ .Title }} page..."></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="field is-grouped">
+                            <div class="control">
+                            <button class="button is-link">Submit</button>
+                            </div>
+                            <div class="control">
+                            <a id="close-report-button" class="button is-link is-light">Cancel</a>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            <button id="close-report" class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+        <script>
+            document.getElementById("report").addEventListener("click",function(){
+                document.getElementById("report-modal").className += " is-active";
+            });
+
+            document.getElementById("close-report").addEventListener("click",function(){
+                document.getElementById("report-modal").className = "modal";
+            });
+
+            document.getElementById("close-report-button").addEventListener("click",function(){
+                document.getElementById("report-modal").className = "modal";
+            });
+        </script>
+
+    </body>
+</html>
