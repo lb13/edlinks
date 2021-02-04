@@ -7,6 +7,10 @@ p,h1,h2,h3,h4,h5,h6 {
     color: #0b0c0c;
 }
 
+.content p, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: #0b0c0c;
+}
+
 a:link {
     color: #1d70b8;
     text-decoration: underline;
@@ -22,6 +26,22 @@ a:visited {
 
 a:active {
     color: #0b0c0c;
+}
+
+
+.footer-link:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-link:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .tag:link {
@@ -192,20 +212,6 @@ strong {
     overflow-wrap: break-word;
 }
 
-footer p>a:link {
-    color: inherit;
-    border-bottom: 2px dotted #FFF;
-}
-
-footer p>a:visited {
-    color: inherit;
-    border-bottom: 2px dotted #FFF;
-}
-
-footer p>a:hover {
-    color: inherit;
-    border-bottom: 4px solid #FFF;
-}
 
 .input:focus {
     outline: 5px solid #ffdd00

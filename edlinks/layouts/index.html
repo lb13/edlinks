@@ -11,23 +11,19 @@
             <div class="hero-body">
                 <div class="container has-text-white has-text-centered">
                     <h1 class="title has-text-white is-size-1">
-                    EducationFunding.UK
+                    Education Funding UK
                     </h1>
                 </div>
             </div>
         </section>
         
-        <section style="background-color: #b1b4b6" class="section has-text-white">
+        <section style="background-color: #f3f2f1" class="section has-text-white">
 
             <div class="columns">
         
                 <div style="border-left: 10px solid #1d70b8" class="column is-8 is-offset-2">
-
-                    {{ if (isset .Params "abstract") }}
-                    <h2 class="subtitle has-text-white">{{ .Params.abstract}}</h2>
-                    {{ end }}
         
-                    <input id="searchbox" class="input is-size-4" type="text" placeholder="Search for resources..." onkeyup="search()" style=":focus: ">
+                    <input id="searchbox" class="input is-size-4" style="border-radius: 0px;" type="text" placeholder="Search for resources..." onkeyup="search()">
         
                 </div>
         
@@ -40,7 +36,7 @@
 
 
                 <div class="columns is-multiline">
-                    {{ range .Pages.ByTitle }}
+                    {{ range (where .Site.RegularPages "Section" "resource") }}
                     <div class="item column is-half">
                         
                         <article class="tile is-child box">
@@ -63,25 +59,9 @@
 
                         <p class="searchstring" style="display: none">
 
-                            {{ with .Params.categories }}
-                            {{ . }}
-                            {{ end }}    
-
-                            {{ with .Params.sourcetypes }}
-                            {{ . }}
-                            {{ end }}
-
                             {{ .Title }}
 
-                            {{ with .Params.sourceauthor }}
-                            {{ . }}
-                            {{ end }}
-
-                            {{ with .Params.originalyear }}
-                            {{ . }}
-                            {{ end }}
-
-                            {{ with .Params.abstract }}
+                            {{ with .Description }}
                             {{ . }}
                             {{ end }}
 
