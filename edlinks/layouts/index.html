@@ -1,31 +1,26 @@
 <!DOCTYPE html>
-<html class="has-navbar-fixed-top">
+<html>
 
     {{ partial "head.html" . }}
 
     <body>
 
-        {{ partial "navbar.html" . }}
-
         <section style="background-color: #0b0c0c" class="hero is-small">
             <div class="hero-body">
-                <div class="container has-text-white has-text-centered">
-                    <h1 class="title has-text-white is-size-1">
+                <div class="container has-text-white">
+                    <h1 class="title has-text-white is-size-1 mb-0">
                     Education Funding UK
                     </h1>
+                    <p style="color: white">Online resources to assist education and training providers.</p>
                 </div>
             </div>
         </section>
         
-        <section style="background-color: #f3f2f1" class="section has-text-white">
+        <section style="background-color: #1d70b8; padding: 2rem" class="section has-text-white">
 
-            <div class="columns">
-        
-                <div style="border-left: 10px solid #1d70b8" class="column is-8 is-offset-2">
-        
+            <div class="container">
+                    
                     <input id="searchbox" class="input is-size-4" style="border-radius: 0px;" type="text" placeholder="Search for resources..." onkeyup="search()">
-        
-                </div>
         
             </div>
         </section>
@@ -43,7 +38,7 @@
                             
                         <p class="is-size-3"><strong><a class="title-link" href="{{.Params.link}}">{{ .Title }}</a></strong></p>
                         
-                        <p class="item-abstract">{{ .Description | truncate 100 }}</p>
+                        <p class="item-abstract">{{ .Description | truncate 200 }}</p>
                         
                         <p style="margin-top: 5px"><a href="{{.Permalink}}">More information</a></p>
 

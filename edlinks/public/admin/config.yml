@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: understandingreligion/static/img/images
+collections:
+  - name: 'p'
+    label: 'Pages'
+    folder: 'understandingreligion/content/p'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'Title', widget: 'string' }
+      - { label: 'Publish Date', name: 'PublishDate', widget: 'datetime' }
+      - { label: 'Abstract', name: 'Abstract', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown' }
