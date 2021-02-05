@@ -38,11 +38,38 @@
     </item>
     
     <item>
+      <title>Apprenticeship Service</title>
+      <link>/resource/apprenticeship-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/apprenticeship-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Apprenticeship technical funding guide</title>
       <link>/resource/apprenticeship-funding-guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/resource/apprenticeship-funding-guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Companies House Register</title>
+      <link>/resource/companies-house-register/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/companies-house-register/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DfE Services</title>
+      <link>/resource/dfe-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/dfe-services/</guid>
       <description></description>
     </item>
     
@@ -97,6 +124,69 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/resource/14-16-funding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GLA Open Project System</title>
+      <link>/resource/gla-open-project-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/gla-open-project-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Greater London Authority (GLA)</title>
+      <link>/resource/greater-london-authority-gla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/greater-london-authority-gla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HESA</title>
+      <link>/resource/hesa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/hesa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HESA Data Collection</title>
+      <link>/resource/hesa-data-collection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/hesa-data-collection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HESA Graduate Outcomes</title>
+      <link>/resource/hesa-graduate-outcomes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/hesa-graduate-outcomes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HESA Heidi Plus</title>
+      <link>/resource/hesa-heidi-plus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/hesa-heidi-plus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HESA Identity System</title>
+      <link>/resource/hesa-identity-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/hesa-identity-system/</guid>
       <description></description>
     </item>
     
@@ -164,6 +254,24 @@
     </item>
     
     <item>
+      <title>Hub Reports</title>
+      <link>/resource/hub-reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/hub-reports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IDAMS Account</title>
+      <link>/resource/idams-account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/idams-account/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Industry placements: capacity and delivery fund (CDF) for 2019 to 2020 for providers in receipt of CDF in academic year 2018 to 2019</title>
       <link>/resource/cdf-2019-2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -200,6 +308,24 @@
     </item>
     
     <item>
+      <title>Manage Your Education and Skills Funding</title>
+      <link>/resource/manage-your-education-and-skills-funding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/manage-your-education-and-skills-funding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MiDES Service</title>
+      <link>/resource/mides-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/mides-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>National funding formula tables for schools and high needs: 2018 to 2019</title>
       <link>/resource/national-high-needs-formula-2018-2019/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -223,6 +349,69 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/resource/national-skills-fund/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NSS eXtranet</title>
+      <link>/resource/nss-extranet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/nss-extranet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OfS Portal</title>
+      <link>/resource/ofs-portal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/ofs-portal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OfS Portal User Administration</title>
+      <link>/resource/ofs-portal-user-administration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/ofs-portal-user-administration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Register of Regulated Qualifications</title>
+      <link>/resource/register-of-regulated-qualifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/register-of-regulated-qualifications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Submit Learner Data</title>
+      <link>/resource/submit-learner-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/submit-learner-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>View Your Education Data</title>
+      <link>/resource/view-your-education-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/view-your-education-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>West of England Combined Authority (WECA)</title>
+      <link>/resource/west-of-england-combined-authority-weca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/west-of-england-combined-authority-weca/</guid>
       <description></description>
     </item>
     
