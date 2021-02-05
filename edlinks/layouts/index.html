@@ -5,43 +5,24 @@
 
     <body>
 
-        <section style="background-color: #0b0c0c" class="hero is-small">
-            <div class="hero-body">
-                <div class="container has-text-white">
-                    <h1 class="title has-text-white is-size-1 mb-0">
-                    Education Funding UK
-                    </h1>
-                    <p style="color: white">Online resources to assist education and training providers.</p>
-                </div>
-            </div>
-        </section>
+        {{ partial "header.html" . }}
         
-        <section style="background-color: #1d70b8; padding: 2rem" class="section has-text-white">
-
-            <div class="container">
-                    
-                    <input id="searchbox" class="input is-size-4" style="border-radius: 0px;" type="text" placeholder="Search for resources..." onkeyup="search()">
-        
-            </div>
-        </section>
+        {{ partial "searchbar.html" . }}
 
         <section style="background-color: #f3f2f1" class="section">
-            
             <div class="container">
-
-
                 <div class="columns is-multiline">
                     {{ range (where .Site.RegularPages "Section" "resource") }}
                     <div class="item column is-half">
                         
                         <article class="tile is-child box">
                             
-                        <p class="is-size-3"><strong><a class="title-link" href="{{.Params.link}}">{{ .Title }}</a></strong></p>
+                        <p class="is-size-4"><strong><a class="title-link" href="{{.Params.link}}">{{ .Title }}</a></strong></p>
                         
                         <p class="item-abstract">{{ .Description | truncate 200 }}</p>
                         
                         <p style="margin-top: 5px"><a href="{{.Permalink}}">More information</a></p>
-
+        
                         {{ if (isset .Params "tags") }}
                         <hr>
                         <div class="item-taglist">
@@ -51,26 +32,26 @@
                         </div>
                         {{ else }}
                         {{ end }}
-
+        
                         <p class="searchstring" style="display: none">
-
+        
                             {{ .Title }}
-
+        
                             {{ with .Description }}
                             {{ . }}
                             {{ end }}
-
+        
                             {{ with .Params.tags }}
                             {{ . }}
                             {{ end }}
                             
                         </p>
-
+        
                       </article>
                     </div>
                     {{ end }}
                 </div>
-
+        
             </div>
             
             

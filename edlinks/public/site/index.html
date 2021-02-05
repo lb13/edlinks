@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="has-navbar-fixed-top">
+<html>
 
         <head>
         <meta charset="utf-8">
@@ -60,109 +60,72 @@
 
     <body>
 
-        
-<nav style="border-bottom: 3px solid #1d70b8" class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-        
-        &nbsp;
-
-        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-        </a>
-
-    </div>
-
-    <div class="navbar-menu" id="navMenu">
-        <div class="navbar-start">
-        <a href="/" class="navbar-item">
-            Home
-        </a>
-
-        <a href="/tags/" class="navbar-item">
-            Search by Tags
-        </a>
-
-        <a href="/site/about/" class="navbar-item">
-            About the Site
-        </a>
-
-        </div>
-        </div>
-    </nav>
-
         <section style="background-color: #0b0c0c" class="hero is-small">
-            <div class="hero-body">
-                <div class="container has-text-white has-text-centered">
-                    <h1 class="title has-text-white is-size-1">
-                    Education Funding UK
-                    </h1>
-                </div>
+    <div class="hero-body">
+        <div class="container has-text-white">
+            <h1 class="title has-text-white is-size-1 mb-0">
+                Education Funding UK
+            </h1>
+            <p style="color: white">Online resources to assist education and training providers.</p>
+        </div>
+    </div>
+</section>
+
+        <section style="background-color: #0b0c0c" class="section p-0 pb-2">  
+            <div class="container has-text-white">
+                <a style="color: inherit; text-decoration: none;" href="/">Home</a> > <strong>Sites</strong>
             </div>
         </section>
-        
-        <section style="background-color: #f3f2f1" class="section has-text-white">
 
-            <div class="columns">
-        
-                <div style="border-left: 10px solid #1d70b8" class="column is-8 is-offset-2">
-
-                    
-        
-                    <input id="searchbox" class="input is-size-4" style="border-radius: 0px;" type="text" placeholder="Search for resources..." onkeyup="search()">
-        
-                </div>
-        
-            </div>
-        </section>
+        <section style="background-color: #1d70b8; padding: 2rem" class="section has-text-white">
+    <div class="container">
+        <input id="searchbox" class="input is-size-4" style="border-radius: 0px;" type="text" placeholder="Search for resources..." onkeyup="search()">
+    </div>
+</section>
 
         <section style="background-color: #f3f2f1" class="section">
+    <div class="container">
+        <div class="columns is-multiline">
             
-            <div class="container">
-
-
-                <div class="columns is-multiline">
+            <div class="item column is-half">
+                
+                <article class="tile is-child box">
                     
-                    <div class="item column is-half">
-                        
-                        <article class="tile is-child box">
-                            
-                        <p class="is-size-3"><strong><a class="title-link" href="">About the Site</a></strong></p>
-                        
-                        <p class="item-abstract"></p>
-                        
-                        <p style="margin-top: 5px"><a href="/site/about/">More information</a></p>
+                <p class="is-size-4"><strong><a class="title-link" href="">About the Site</a></strong></p>
+                
+                <p class="item-abstract"></p>
+                
+                <p style="margin-top: 5px"><a href="/site/about/">More information</a></p>
 
-                        
-                        
+                
+                
 
-                        <p class="searchstring" style="display: none">
+                <p class="searchstring" style="display: none">
 
-                            About the Site
+                    About the Site
 
-                            
-
-                            
-                            
-                        </p>
-
-                      </article>
-                    </div>
                     
-                </div>
 
+                    
+                    
+                </p>
+
+              </article>
             </div>
             
-            
-        </section>
+        </div>
+
+    </div>
+    
+    
+</section>
         
         <footer class="section" style="margin-top: 0; background-color: #b1b4b6; color: #0b0c0c">
     <div style="margin-top: 0;" class="columns is-vcentered has-text-centered">
         <div class="column">
             <p><strong>Education Links UK</strong> | a project by your friendly neighbourhood web developer</p>
             <br><p>This site is not owned or operated by any department or office of the UK government, although it does borrow some styles from the <a href="https://design-system.service.gov.uk">GOV.UK Design System</a>.</p>
-            <br><p>Website content licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></p>
+            <br><p>Website content licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
         </div>
     </div>
 </footer>
