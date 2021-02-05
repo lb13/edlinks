@@ -3,7 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/2019-to-2020/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/2020-to-2021/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/2021-to-2022/</loc>
   </url>
   
   <url>
@@ -27,6 +35,14 @@
   </url>
   
   <url>
+    <loc>/tags/allocation/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/cdf-2021-2022/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/apprenticeship-funding/</loc>
   </url>
   
@@ -43,11 +59,23 @@
   </url>
   
   <url>
+    <loc>/tags/capacity-and-delivery-fund/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
   </url>
   
   <url>
+    <loc>/tags/covid-19/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/esfa-homepage/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/educational-setting-status-form/</loc>
   </url>
   
   <url>
@@ -63,6 +91,10 @@
   </url>
   
   <url>
+    <loc>/resource/find-a-learning-aim/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/find-an-apprenticeship/</loc>
   </url>
   
@@ -72,6 +104,66 @@
   
   <url>
     <loc>/tags/guidance/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/high-needs-benchmarking-tool/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/high-needs-funding/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/high-needs-funding-collection/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/high-needs-funding-arrangements-2019-2020/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/high-needs-funding-arrangements-2020-2021/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/high-needs-funding-arrangements-2021-2022/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/high-needs-allocated-places/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/home-education/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/industry-placements/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/cdf-2019-2020/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/cdf-2020-2021/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/learner-record-service/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/learning-aim-reference-service/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/national-high-needs-formula-2018-2019/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/national-high-needs-formula-2019-2020/</loc>
   </url>
   
   <url>
