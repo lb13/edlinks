@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sites on EducationFunding.UK</title>
+    <title>Sites on Education Funding UK</title>
     <link>/site/</link>
-    <description>Recent content in Sites on EducationFunding.UK</description>
+    <description>Recent content in Sites on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
@@ -17,6 +17,15 @@
       
       <guid>/site/about/</guid>
       <description>Welcome to the site Hello - this site contains links to useful resources for education training providers in the UK.</description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>/site/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/site/contact/</guid>
+      <description>Your Name:    Email     Message    Submit   </description>
     </item>
     
   </channel>

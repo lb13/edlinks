@@ -71,6 +71,10 @@
   </url>
   
   <url>
+    <loc>/site/contact/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/covid-19/</loc>
   </url>
   
@@ -79,11 +83,11 @@
   </url>
   
   <url>
-    <loc>/resource/educational-setting-status-form/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/resource/educational-setting-status-form/</loc>
   </url>
   
   <url>

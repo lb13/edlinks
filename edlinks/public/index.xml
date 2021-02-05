@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>EducationFunding.UK</title>
+    <title>Education Funding UK</title>
     <link>/</link>
-    <description>Recent content on EducationFunding.UK</description>
+    <description>Recent content on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
@@ -53,6 +53,15 @@
       
       <guid>/resource/apprenticeship-funding-guide/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>/site/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/site/contact/</guid>
+      <description>Your Name:    Email     Message    Submit   </description>
     </item>
     
     <item>
