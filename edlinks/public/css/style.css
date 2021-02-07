@@ -1,7 +1,7 @@
 * {
     overflow-wrap: break-word;
     word-wrap: break-word;
-
+    
 }
 
 p,h1,h2,h3,h4,h5,h6 {
@@ -60,50 +60,7 @@ a:active {
     color: #0b0c0c;
 }
 
-/* 
-These heading pseudo elements are for
-adjusting the page scroll to account
-for the fixed navbar.
 
-Borrowed from CSS Tricks!
-https://css-tricks.com/hash-tag-links-padding/
-*/
-h1::before { 
-    display: block; 
-    content: " "; 
-    margin-top: -60px; 
-    height: 60px; 
-    visibility: hidden; 
-    pointer-events: none;
-  }
-
-h2::before { 
-    display: block; 
-    content: " "; 
-    margin-top: -60px; 
-    height: 60px; 
-    visibility: hidden; 
-    pointer-events: none;
-}
-
-h3::before { 
-    display: block; 
-    content: " "; 
-    margin-top: -60px; 
-    height: 60px; 
-    visibility: hidden; 
-    pointer-events: none;
-}
-
-h4::before { 
-    display: block; 
-    content: " "; 
-    margin-top: -60px; 
-    height: 60px; 
-    visibility: hidden; 
-    pointer-events: none;
-}
-/* End of heading pseudo elements */
 
 sup {
     vertical-align: baseline;

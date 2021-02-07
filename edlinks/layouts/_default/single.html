@@ -16,19 +16,25 @@
                         {{ .Title }}
                     </h1>
 
+                    {{ if ( isset .Params "description" ) }}
+                    <p class="subtitle">{{ .Description }}</p>
+                    {{ end }}
+
                     <div class="item-taglist">
                         {{ range .Params.tags }}
                         <span><a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a></span>&nbsp;
                         {{ end }}
                     </div>
 
-                    <h2 class="subtitle is-5">
+                    <p class="is-5 pt-4">
                         <a href="{{ .Params.link }}">{{ .Params.link }}</a>
-                    </h2>
+                    </p>
 
                     {{ if ( isset .Params "link" ) }}
                     <a href="/site/contact/" class="mt-3 mb-5 button is-danger">Report Broken Link</a>
                     {{ end }}
+
+                    
 
                     {{ .Content }}
 
