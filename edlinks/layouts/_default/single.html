@@ -8,26 +8,26 @@
 
         {{ partial  "breadcrumbs.html" . }}
     
-        <section style="background-color: #f3f2f1; margin-bottom: 0px" class="section content">
-            <div class="columns">
+            <div style="background-color: #FFFFFF;" class="content columns">
                 
-                <div class="column is-8 is-offset-2">
-                    
+                <div class="column is-10 is-offset-1">
+
+                    <h1 class="title is-1">
+                        {{ .Title }}
+                    </h1>
+
                     <div class="item-taglist">
                         {{ range .Params.tags }}
                         <span><a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a></span>&nbsp;
                         {{ end }}
                     </div>
 
-                    <h1 class="title is-1">
-                        {{ .Title }}
-                    </h1>
                     <h2 class="subtitle is-5">
                         <a href="{{ .Params.link }}">{{ .Params.link }}</a>
                     </h2>
 
                     {{ if ( isset .Params "link" ) }}
-                    <a href="/site/contact/" class="button is-danger">Report Broken Link</a>
+                    <a href="/site/contact/" class="mt-3 mb-5 button is-danger">Report Broken Link</a>
                     {{ end }}
 
                     {{ .Content }}
@@ -35,7 +35,6 @@
                 </div>
             
             </div>
-        </section>
 
 
         {{ partial "footer.html" . }}

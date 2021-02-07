@@ -16,7 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/site/about/</guid>
-      <description>Welcome to the site Hello - this site contains links to useful resources for education training providers in the UK.</description>
+      <description>Hello! This site contains links to useful resources for education training providers in the UK.
+It is not owned or operated by any department or office of the UK government, although it does borrow some styles from the GOV.UK Design System.</description>
     </item>
     
     <item>
@@ -430,7 +431,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/resource/west-of-england-combined-authority-weca/</guid>
-      <description></description>
+      <description>The West of England Combined Authority is responsible for administering the Adult Education Budget for much of the South West region.</description>
     </item>
     
   </channel>

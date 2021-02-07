@@ -9,13 +9,13 @@
         
         {{ partial "searchbar.html" . }}
 
-        <section style="background-color: #f3f2f1" class="section">
+        <section style="background-color: #fff" class="section">
             <div class="container">
                 <div class="columns is-multiline">
                     {{ range (where .Site.RegularPages "Section" "resource") }}
                     <div class="item column is-half">
                         
-                        <article class="tile is-child box">
+                        <article class="tile is-child box" style="background-color: #f8f8f8; border-bottom: 3px solid #005ea5; border-radius: 0px;">
                             
                         <p class="is-size-4"><strong><a class="title-link" href="{{.Params.link}}">{{ .Title }}</a></strong></p>
                         
