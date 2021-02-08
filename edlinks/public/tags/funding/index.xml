@@ -11,11 +11,20 @@
     
     
     <item>
-      <title>Adult education budget (AEB): funding rates and formula 2020 to 2021</title>
-      <link>/resource/aeb-funding-rates-2021/</link>
+      <title>16 to 19 education: financial management and assurance</title>
+      <link>/resource/16-to-19-education-financial-management-and-assurance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resource/aeb-funding-rates-2021/</guid>
+      <guid>/resource/16-to-19-education-financial-management-and-assurance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adult education budget (AEB): funding rates and formula 2020 to 2021</title>
+      <link>/resource/adult-education-budget-aeb-funding-rates-and-formula-2020-to-2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/adult-education-budget-aeb-funding-rates-and-formula-2020-to-2021/</guid>
       <description></description>
     </item>
     
@@ -30,10 +39,55 @@
     
     <item>
       <title>Apprenticeship technical funding guide</title>
-      <link>/resource/apprenticeship-funding-guide/</link>
+      <link>/resource/apprenticeship-technical-funding-guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resource/apprenticeship-funding-guide/</guid>
+      <guid>/resource/apprenticeship-technical-funding-guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>College financial planning handbook and financial plan</title>
+      <link>/resource/college-financial-planning-handbook-and-financial-plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/college-financial-planning-handbook-and-financial-plan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESFA financial management: college accounts</title>
+      <link>/resource/esfa-financial-management-college-accounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/esfa-financial-management-college-accounts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESFA funding agreements and contracts</title>
+      <link>/resource/esfa-funding-agreements-and-contracts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/esfa-funding-agreements-and-contracts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESFA list of qualifications approved for funding 14 to 19</title>
+      <link>/resource/esfa-list-of-qualifications-approved-for-funding-14-to-19/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/esfa-list-of-qualifications-approved-for-funding-14-to-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESFA post-16: intervention and accountability</title>
+      <link>/resource/esfa-post-16-intervention-and-accountability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/esfa-post-16-intervention-and-accountability/</guid>
       <description></description>
     </item>
     
@@ -48,19 +102,19 @@
     
     <item>
       <title>Full-time enrolment of 14 to 16 year olds in further education and sixth-form colleges</title>
-      <link>/resource/14-16-funding/</link>
+      <link>/resource/full-time-enrolment-of-14-to-16-year-olds-in-further-education-and-sixth-form-colleges/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resource/14-16-funding/</guid>
+      <guid>/resource/full-time-enrolment-of-14-to-16-year-olds-in-further-education-and-sixth-form-colleges/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Aims Reference Service (LARS)</title>
-      <link>/resource/learning-aim-reference-service/</link>
+      <link>/resource/learning-aims-reference-service-lars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resource/learning-aim-reference-service/</guid>
+      <guid>/resource/learning-aims-reference-service-lars/</guid>
       <description></description>
     </item>
     
@@ -70,6 +124,24 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/resource/national-skills-fund/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Post-16 audit code of practice</title>
+      <link>/resource/post-16-audit-code-of-practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/post-16-audit-code-of-practice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qualifications and public funding</title>
+      <link>/resource/qualifications-and-public-funding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/qualifications-and-public-funding/</guid>
       <description></description>
     </item>
     
