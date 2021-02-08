@@ -10,7 +10,7 @@
         {{ partial "searchbar.html" . }}
 
         <section style="background-color: #fff" class="section">
-            <div class="container">
+            <div class="container is-mobile">
                 <div class="columns is-multiline">
                     {{ range (where .Site.RegularPages "Section" "resource") }}
                     <div class="item column is-half">
