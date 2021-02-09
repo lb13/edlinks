@@ -115,11 +115,35 @@
   </url>
   
   <url>
+    <loc>/tags/advanced-learner-loan/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/advanced-learner-loans-funding-rules-2019-to-2020/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/advanced-learner-loans-funding-rules-2020-to-2021/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/advanced-learner-loans-an-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/advanced-learner-loans-funding-information-letter-templates/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/advice-funding-regulations-for-post-16-provision/</loc>
   </url>
   
   <url>
     <loc>/tags/aeb/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/all/</loc>
   </url>
   
   <url>
@@ -211,6 +235,10 @@
   </url>
   
   <url>
+    <loc>/tags/end-point-assessment/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/esfa/</loc>
   </url>
   
@@ -231,6 +259,10 @@
   </url>
   
   <url>
+    <loc>/resource/esfa-list-of-qualifications-approved-for-funding/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/esfa-list-of-qualifications-approved-for-funding-14-to-19/</loc>
   </url>
   
@@ -243,11 +275,19 @@
   </url>
   
   <url>
+    <loc>/resource/find-a-course-national-careers-service/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/find-a-learning-aim/</loc>
   </url>
   
   <url>
     <loc>/resource/find-an-apprenticeship/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/find-an-end-point-assessment-organisation-for-your-apprentice/</loc>
   </url>
   
   <url>
@@ -387,6 +427,10 @@
   </url>
   
   <url>
+    <loc>/resource/institute-for-apprenticeships-and-technical-education/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/introduction-of-t-levels/</loc>
   </url>
   
@@ -408,6 +452,10 @@
   
   <url>
     <loc>/resource/mides-service/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/national-career-service/</loc>
   </url>
   
   <url>
@@ -467,6 +515,10 @@
   </url>
   
   <url>
+    <loc>/resource/specification-of-the-individualised-learner-record/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/student-guide-preparing-for-industry-placements/</loc>
   </url>
   
@@ -512,6 +564,14 @@
   
   <url>
     <loc>/resource/view-your-education-data/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/weca/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/west-of-england-combined-authority-weca/</loc>
   </url>
   
 </urlset>
