@@ -9,53 +9,56 @@
         
         {{ partial "searchbar.html" . }}
 
-        <section style="background-color: #fff" class="section">
-            <div class="container is-mobile">
-                <div class="columns is-multiline">
+        <div class="columns is-mobile m-0">
+            <div class="column is-10 is-offset-1 p-0">
+                
+                <h2 class="is-size-2 mb-4 mt-6"><strong>Search results</strong></h2>
+                <hr style="margin: 10px 0px 30px 0px; background-color: black">
+
+                <div class="columns is-multiline m-0">
+
                     {{ range (where .Site.RegularPages "Section" "resource") }}
-                    <div class="item column is-half">
-                        
+                    <div class="column item is-half">
                         <article class="tile is-child box" style="background-color: #f8f8f8; border-bottom: 3px solid #005ea5; border-radius: 0px;">
                             
-                        <p class="is-size-4"><strong><a class="title-link" href="{{.Params.link}}">{{ .Title }}</a></strong></p>
-                        
-                        <p class="item-abstract">{{ .Description | truncate 200 }}</p>
-                        
-                        <p style="margin-top: 5px"><a href="{{.Permalink}}">More information</a></p>
-        
-                        {{ if (isset .Params "tags") }}
-                        <hr>
-                        <div class="item-taglist">
-                            {{ range .Params.tags }}
-                            <span><a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a></span>&nbsp;
-                            {{ end }}
-                        </div>
-                        {{ else }}
-                        {{ end }}
-        
-                        <p class="searchstring" style="display: none">
-        
-                            {{ .Title }}
-        
-                            {{ with .Description }}
-                            {{ . }}
-                            {{ end }}
-        
-                            {{ with .Params.tags }}
-                            {{ . }}
-                            {{ end }}
+                            <p class="is-size-4"><strong><a class="title-link" href="{{.Params.link}}">{{ .Title }}</a></strong></p>
                             
-                        </p>
-        
-                      </article>
+                            <p class="item-abstract">{{ .Description | truncate 200 }}</p>
+                            
+                            <p style="margin-top: 5px"><a href="{{.Permalink}}">More information</a></p>
+            
+                            {{ if (isset .Params "tags") }}
+                            <hr>
+                            <div class="item-taglist">
+                                {{ range .Params.tags }}
+                                <span><a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a></span>&nbsp;
+                                {{ end }}
+                            </div>
+                            {{ else }}
+                            {{ end }}
+            
+                            <p class="searchstring" style="display: none">
+            
+                                {{ .Title }}
+            
+                                {{ with .Description }}
+                                {{ . }}
+                                {{ end }}
+            
+                                {{ with .Params.tags }}
+                                {{ . }}
+                                {{ end }}
+                                
+                            </p>
+            
+                          </article>
                     </div>
                     {{ end }}
+
                 </div>
-        
+
             </div>
-            
-            
-        </section>
+        </div>
         
         {{ partial "footer.html" . }}
     </body>
