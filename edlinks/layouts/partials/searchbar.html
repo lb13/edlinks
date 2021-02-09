@@ -5,3 +5,14 @@
         <input id="searchbox" autofocus class="input is-size-4" style="border-radius: 0px; border: 2px solid black; margin-top: 10px" type="text" placeholder="" onkeyup="search()">
     </div>
 </div>
+
+<div class="columns is-mobile m-0">
+    <div class="column is-10 is-offset-1 px-0">
+        <a onclick="tagToggle()"><span id="indicator">&#9654;</span>&nbsp;Tag List</a>
+        <div id="quicktags" class="item-taglist" style="display: none">
+            {{ range $.Site.Taxonomies.tags.Alphabetical }}
+            <span><a class="tag" href="/tags/{{ .Name }}">{{ .Page.Title }}&nbsp;<small>({{ .Count }})</small></a></span>&nbsp;
+            {{ end }}
+        </div>
+    </div>
+</div>

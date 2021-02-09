@@ -21,3 +21,12 @@ function search() {
       }
   };
 // End of normal search function for desktop interface
+
+function tagToggle() {
+  var x = document.getElementById("quicktags");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
