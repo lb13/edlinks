@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wyca on Education Funding UK</title>
-    <link>educationfunding.uk/tags/wyca/</link>
+    <link>/tags/wyca/</link>
     <description>Recent content in wyca on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="educationfunding.uk/tags/wyca/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/wyca/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>West Yorkshire Combined Authority (WYCA)</title>
-      <link>educationfunding.uk/resource/west-yorkshire-combined-authority-wyca/</link>
+      <link>/resource/west-yorkshire-combined-authority-wyca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/west-yorkshire-combined-authority-wyca/</guid>
+      <guid>/resource/west-yorkshire-combined-authority-wyca/</guid>
       <description></description>
     </item>
     

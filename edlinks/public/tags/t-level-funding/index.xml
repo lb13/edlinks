@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>t level funding on Education Funding UK</title>
-    <link>educationfunding.uk/tags/t-level-funding/</link>
+    <link>/tags/t-level-funding/</link>
     <description>Recent content in t level funding on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="educationfunding.uk/tags/t-level-funding/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/t-level-funding/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How T Levels will be funded in academic year 2020 to 2021</title>
-      <link>educationfunding.uk/resource/how-t-levels-will-be-funded-in-academic-year-2020-to-2021/</link>
+      <link>/resource/how-t-levels-will-be-funded-in-academic-year-2020-to-2021/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/how-t-levels-will-be-funded-in-academic-year-2020-to-2021/</guid>
+      <guid>/resource/how-t-levels-will-be-funded-in-academic-year-2020-to-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>T Levels: next steps for providers</title>
-      <link>educationfunding.uk/resource/t-levels-next-steps-for-providers/</link>
+      <link>/resource/t-levels-next-steps-for-providers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/t-levels-next-steps-for-providers/</guid>
+      <guid>/resource/t-levels-next-steps-for-providers/</guid>
       <description></description>
     </item>
     

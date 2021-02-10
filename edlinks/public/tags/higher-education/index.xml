@@ -2,83 +2,83 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>higher education on Education Funding UK</title>
-    <link>educationfunding.uk/tags/higher-education/</link>
+    <link>/tags/higher-education/</link>
     <description>Recent content in higher education on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="educationfunding.uk/tags/higher-education/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/higher-education/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HESA</title>
-      <link>educationfunding.uk/resource/hesa/</link>
+      <link>/resource/hesa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/hesa/</guid>
+      <guid>/resource/hesa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HESA Data Collection</title>
-      <link>educationfunding.uk/resource/hesa-data-collection/</link>
+      <link>/resource/hesa-data-collection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/hesa-data-collection/</guid>
+      <guid>/resource/hesa-data-collection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HESA Graduate Outcomes</title>
-      <link>educationfunding.uk/resource/hesa-graduate-outcomes/</link>
+      <link>/resource/hesa-graduate-outcomes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/hesa-graduate-outcomes/</guid>
+      <guid>/resource/hesa-graduate-outcomes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HESA Heidi Plus</title>
-      <link>educationfunding.uk/resource/hesa-heidi-plus/</link>
+      <link>/resource/hesa-heidi-plus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/hesa-heidi-plus/</guid>
+      <guid>/resource/hesa-heidi-plus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HESA Identity System</title>
-      <link>educationfunding.uk/resource/hesa-identity-system/</link>
+      <link>/resource/hesa-identity-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/hesa-identity-system/</guid>
+      <guid>/resource/hesa-identity-system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NSS eXtranet</title>
-      <link>educationfunding.uk/resource/nss-extranet/</link>
+      <link>/resource/nss-extranet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/nss-extranet/</guid>
+      <guid>/resource/nss-extranet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OfS Portal</title>
-      <link>educationfunding.uk/resource/ofs-portal/</link>
+      <link>/resource/ofs-portal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/ofs-portal/</guid>
+      <guid>/resource/ofs-portal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OfS Portal User Administration</title>
-      <link>educationfunding.uk/resource/ofs-portal-user-administration/</link>
+      <link>/resource/ofs-portal-user-administration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/ofs-portal-user-administration/</guid>
+      <guid>/resource/ofs-portal-user-administration/</guid>
       <description></description>
     </item>
     

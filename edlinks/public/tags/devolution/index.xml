@@ -2,128 +2,128 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>devolution on Education Funding UK</title>
-    <link>educationfunding.uk/tags/devolution/</link>
+    <link>/tags/devolution/</link>
     <description>Recent content in devolution on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="educationfunding.uk/tags/devolution/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/devolution/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Adult education budget (AEB) devolution</title>
-      <link>educationfunding.uk/resource/adult-education-budget-aeb-devolution/</link>
+      <link>/resource/adult-education-budget-aeb-devolution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/adult-education-budget-aeb-devolution/</guid>
+      <guid>/resource/adult-education-budget-aeb-devolution/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adult Education Budget (AEB) postcode files</title>
-      <link>educationfunding.uk/resource/adult-education-budget-aeb-postcode-files/</link>
+      <link>/resource/adult-education-budget-aeb-postcode-files/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/adult-education-budget-aeb-postcode-files/</guid>
+      <guid>/resource/adult-education-budget-aeb-postcode-files/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adult education budget devolution operational guidance</title>
-      <link>educationfunding.uk/resource/adult-education-budget-devolution-operational-guidance/</link>
+      <link>/resource/adult-education-budget-devolution-operational-guidance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/adult-education-budget-devolution-operational-guidance/</guid>
+      <guid>/resource/adult-education-budget-devolution-operational-guidance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cambridgeshire and Peterborough Combined Authority (CPCA)</title>
-      <link>educationfunding.uk/resource/cambridgeshire-and-peterborough-combined-authority-cpca/</link>
+      <link>/resource/cambridgeshire-and-peterborough-combined-authority-cpca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/cambridgeshire-and-peterborough-combined-authority-cpca/</guid>
+      <guid>/resource/cambridgeshire-and-peterborough-combined-authority-cpca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Greater London Authority (GLA)</title>
-      <link>educationfunding.uk/resource/greater-london-authority-gla/</link>
+      <link>/resource/greater-london-authority-gla/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/greater-london-authority-gla/</guid>
+      <guid>/resource/greater-london-authority-gla/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Greater Manchester Combined Authority (GMCA)</title>
-      <link>educationfunding.uk/resource/greater-manchester-combined-authority-gmca/</link>
+      <link>/resource/greater-manchester-combined-authority-gmca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/greater-manchester-combined-authority-gmca/</guid>
+      <guid>/resource/greater-manchester-combined-authority-gmca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Liverpool City Region Combined Authority (LCRCA)</title>
-      <link>educationfunding.uk/resource/liverpool-city-region-combined-authority-lcrca/</link>
+      <link>/resource/liverpool-city-region-combined-authority-lcrca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/liverpool-city-region-combined-authority-lcrca/</guid>
+      <guid>/resource/liverpool-city-region-combined-authority-lcrca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>North of Tyne Combined Authority (NTCA)</title>
-      <link>educationfunding.uk/resource/north-of-tyne-combined-authority-ntca/</link>
+      <link>/resource/north-of-tyne-combined-authority-ntca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/north-of-tyne-combined-authority-ntca/</guid>
+      <guid>/resource/north-of-tyne-combined-authority-ntca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sheffield City Region (SCR)</title>
-      <link>educationfunding.uk/resource/sheffield-city-region-scr/</link>
+      <link>/resource/sheffield-city-region-scr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/sheffield-city-region-scr/</guid>
+      <guid>/resource/sheffield-city-region-scr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tees Valley Combined Authority (TVCA)</title>
-      <link>educationfunding.uk/resource/tees-valley-combined-authority-tvca/</link>
+      <link>/resource/tees-valley-combined-authority-tvca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/tees-valley-combined-authority-tvca/</guid>
+      <guid>/resource/tees-valley-combined-authority-tvca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>West Midlands Combined Authority (WMCA)</title>
-      <link>educationfunding.uk/resource/west-midlands-combined-authority-wmca/</link>
+      <link>/resource/west-midlands-combined-authority-wmca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/west-midlands-combined-authority-wmca/</guid>
+      <guid>/resource/west-midlands-combined-authority-wmca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>West of England Combined Authority (WECA)</title>
-      <link>educationfunding.uk/resource/west-of-england-combined-authority-weca/</link>
+      <link>/resource/west-of-england-combined-authority-weca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/west-of-england-combined-authority-weca/</guid>
+      <guid>/resource/west-of-england-combined-authority-weca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>West Yorkshire Combined Authority (WYCA)</title>
-      <link>educationfunding.uk/resource/west-yorkshire-combined-authority-wyca/</link>
+      <link>/resource/west-yorkshire-combined-authority-wyca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/west-yorkshire-combined-authority-wyca/</guid>
+      <guid>/resource/west-yorkshire-combined-authority-wyca/</guid>
       <description></description>
     </item>
     

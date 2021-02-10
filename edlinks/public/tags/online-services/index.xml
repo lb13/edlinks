@@ -2,236 +2,245 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>online services on Education Funding UK</title>
-    <link>educationfunding.uk/tags/online-services/</link>
+    <link>/tags/online-services/</link>
     <description>Recent content in online services on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="educationfunding.uk/tags/online-services/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/online-services/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Apprenticeship Service</title>
-      <link>educationfunding.uk/resource/apprenticeship-service/</link>
+      <link>/resource/apprenticeship-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/apprenticeship-service/</guid>
+      <guid>/resource/apprenticeship-service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Companies House Register</title>
-      <link>educationfunding.uk/resource/companies-house-register/</link>
+      <link>/resource/companies-house-register/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/companies-house-register/</guid>
+      <guid>/resource/companies-house-register/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DfE Services</title>
-      <link>educationfunding.uk/resource/dfe-services/</link>
+      <link>/resource/dfe-services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/dfe-services/</guid>
+      <guid>/resource/dfe-services/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Employer Data Service</title>
-      <link>educationfunding.uk/resource/employer-data-service/</link>
+      <link>/resource/employer-data-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/employer-data-service/</guid>
+      <guid>/resource/employer-data-service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ESFA List of Qualifications approved for funding</title>
-      <link>educationfunding.uk/resource/esfa-list-of-qualifications-approved-for-funding/</link>
+      <link>/resource/esfa-list-of-qualifications-approved-for-funding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/esfa-list-of-qualifications-approved-for-funding/</guid>
+      <guid>/resource/esfa-list-of-qualifications-approved-for-funding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Find a course (National Careers Service)</title>
-      <link>educationfunding.uk/resource/find-a-course-national-careers-service/</link>
+      <link>/resource/find-a-course-national-careers-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/find-a-course-national-careers-service/</guid>
+      <guid>/resource/find-a-course-national-careers-service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Find a Learning Aim</title>
-      <link>educationfunding.uk/resource/find-a-learning-aim/</link>
+      <link>/resource/find-a-learning-aim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/find-a-learning-aim/</guid>
+      <guid>/resource/find-a-learning-aim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Find an Apprenticeship</title>
-      <link>educationfunding.uk/resource/find-an-apprenticeship/</link>
+      <link>/resource/find-an-apprenticeship/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/find-an-apprenticeship/</guid>
+      <guid>/resource/find-an-apprenticeship/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HESA</title>
-      <link>educationfunding.uk/resource/hesa/</link>
+      <link>/resource/hesa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/hesa/</guid>
+      <guid>/resource/hesa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HESA Data Collection</title>
-      <link>educationfunding.uk/resource/hesa-data-collection/</link>
+      <link>/resource/hesa-data-collection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/hesa-data-collection/</guid>
+      <guid>/resource/hesa-data-collection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HESA Graduate Outcomes</title>
-      <link>educationfunding.uk/resource/hesa-graduate-outcomes/</link>
+      <link>/resource/hesa-graduate-outcomes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/hesa-graduate-outcomes/</guid>
+      <guid>/resource/hesa-graduate-outcomes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HESA Heidi Plus</title>
-      <link>educationfunding.uk/resource/hesa-heidi-plus/</link>
+      <link>/resource/hesa-heidi-plus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/hesa-heidi-plus/</guid>
+      <guid>/resource/hesa-heidi-plus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HESA Identity System</title>
-      <link>educationfunding.uk/resource/hesa-identity-system/</link>
+      <link>/resource/hesa-identity-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/hesa-identity-system/</guid>
+      <guid>/resource/hesa-identity-system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hub Reports</title>
-      <link>educationfunding.uk/resource/hub-reports/</link>
+      <link>/resource/hub-reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/hub-reports/</guid>
+      <guid>/resource/hub-reports/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IDAMS Account</title>
-      <link>educationfunding.uk/resource/idams-account/</link>
+      <link>/resource/idams-account/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/idams-account/</guid>
+      <guid>/resource/idams-account/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learner Record Service (LRS)</title>
-      <link>educationfunding.uk/resource/learner-record-service-lrs/</link>
+      <link>/resource/learner-record-service-lrs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/learner-record-service-lrs/</guid>
+      <guid>/resource/learner-record-service-lrs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Aims Reference Service (LARS)</title>
-      <link>educationfunding.uk/resource/learning-aims-reference-service-lars/</link>
+      <link>/resource/learning-aims-reference-service-lars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/learning-aims-reference-service-lars/</guid>
+      <guid>/resource/learning-aims-reference-service-lars/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Manage Your Education and Skills Funding</title>
-      <link>educationfunding.uk/resource/manage-your-education-and-skills-funding/</link>
+      <link>/resource/manage-your-education-and-skills-funding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/manage-your-education-and-skills-funding/</guid>
+      <guid>/resource/manage-your-education-and-skills-funding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MiDES Service</title>
-      <link>educationfunding.uk/resource/mides-service/</link>
+      <link>/resource/mides-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/mides-service/</guid>
+      <guid>/resource/mides-service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NSS eXtranet</title>
-      <link>educationfunding.uk/resource/nss-extranet/</link>
+      <link>/resource/nss-extranet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/nss-extranet/</guid>
+      <guid>/resource/nss-extranet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OfS Portal</title>
-      <link>educationfunding.uk/resource/ofs-portal/</link>
+      <link>/resource/ofs-portal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/ofs-portal/</guid>
+      <guid>/resource/ofs-portal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OfS Portal User Administration</title>
-      <link>educationfunding.uk/resource/ofs-portal-user-administration/</link>
+      <link>/resource/ofs-portal-user-administration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/ofs-portal-user-administration/</guid>
+      <guid>/resource/ofs-portal-user-administration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publish to the Course Directory</title>
+      <link>/resource/publish-to-the-course-directory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/publish-to-the-course-directory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Register of Regulated Qualifications</title>
-      <link>educationfunding.uk/resource/register-of-regulated-qualifications/</link>
+      <link>/resource/register-of-regulated-qualifications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/register-of-regulated-qualifications/</guid>
+      <guid>/resource/register-of-regulated-qualifications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Submit Learner Data</title>
-      <link>educationfunding.uk/resource/submit-learner-data/</link>
+      <link>/resource/submit-learner-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/submit-learner-data/</guid>
+      <guid>/resource/submit-learner-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>View Your Education Data</title>
-      <link>educationfunding.uk/resource/view-your-education-data/</link>
+      <link>/resource/view-your-education-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/view-your-education-data/</guid>
+      <guid>/resource/view-your-education-data/</guid>
       <description></description>
     </item>
     

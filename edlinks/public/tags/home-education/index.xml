@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>home education on Education Funding UK</title>
-    <link>educationfunding.uk/tags/home-education/</link>
+    <link>/tags/home-education/</link>
     <description>Recent content in home education on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="educationfunding.uk/tags/home-education/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/home-education/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Home Education</title>
-      <link>educationfunding.uk/resource/home-education/</link>
+      <link>/resource/home-education/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>educationfunding.uk/resource/home-education/</guid>
+      <guid>/resource/home-education/</guid>
       <description></description>
     </item>
     
