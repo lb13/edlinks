@@ -24,9 +24,12 @@ function search() {
 
 function tagToggle() {
   var x = document.getElementById("quicktags");
+  var y = document.getElementById("indicator");
   if (x.style.display === "none") {
     x.style.display = "block";
+    y.innerHTML = "&#9660;";
   } else {
     x.style.display = "none";
+    y.innerHTML = "&#9654;";
   }
 }
