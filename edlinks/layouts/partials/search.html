@@ -1,0 +1,67 @@
+<div class="columns is-mobile m-0">
+    <div class="column is-10 is-offset-1 px-0">
+        <form id="custom-search" name="custom-search" method="post" action="" onsubmit="customSearchResults(); return false;">
+            <label class="has-text-black">Search by <strong>funding type</strong>, <strong>academic year</strong>, or any other criteria</label>
+            <input autofocus class="input is-size-4" style="border-radius: 0px; border: 2px solid black; margin-top: 10px" id="custom-search-field" type="text" name="search" value="" title="Search String">            
+        </form>
+    </div>
+</div>
+
+<div class="columns is-mobile m-0">
+    <div class="column is-10 is-offset-1 px-0">
+        <a onclick="tagToggle()"><span id="indicator">&#9654;</span>&nbsp;Tag List</a>
+        <div id="quicktags" class="item-taglist" style="display: none">
+            {{ range $.Site.Taxonomies.tags.Alphabetical }}
+            <span><a class="tag" href="/tags/{{ .Name }}">{{ .Page.Title }}&nbsp;<small>({{ .Count }})</small></a></span>&nbsp;
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+<div class="columns is-mobile m-0">
+    <div class="column is-10 is-offset-1 px-0">
+        <div id="custom-search-results"></div>
+    </div>
+</div>
+
+<script>
+// CUSTOM AREA
+let params = {
+    json_src       : '/index.json', // for multiple sources: comma separated list of JSONarrays
+    minlength      : 3,
+    defaultsearch  : 'AND',
+    sort_date      : 'DESC',
+    autocomplete   : 1, // 0: form needs a submit button
+    section_search : 0, // 1: needs checkboxes with name="section[]"
+    badwords       : 'and,there,the,this,that,you', //ignore this words
+    json_wait      : '<p><em>loading...</em></p>',
+    json_ready     : '<p><em>Please enter a search term</em></p>',
+    extern_icon    : ' (external link)', // marker for external links (optional)
+    err_badstring  : '<p>Too short!</p>',
+    err_nostring   : '<p><em>Please enter a search term</em></p>',
+    err_noresult   : '<p>Oh jeez, looks like we don\'t have anything matching - try something different? Better yet, <a href="https://educationfunding.uk/site/contact/">send us the link</a> so we can add it to the list!</p>',
+    err_norequest  : '<p style="text-align: center; color:red;">The full text search is currently not available.</p>',
+    err_filefailed : '<p style="text-align: center;color: red;">Search file could not be retrieved.</p>',
+    res_one_item   : '<h2 class="is-size-2 mb-4 mt-0"><strong>[CNT] result</strong></h2><hr style="margin: 10px 0px 30px 0px; background-color: black">',
+    res_more_items : '<h2 class="is-size-2 mb-4 mt-0"><strong>[CNT] results</strong></h2><hr style="margin: 10px 0px 30px 0px; background-color: black">',
+    res_out_top    : '<div class="columns is-multiline m-0">',
+    res_out_bottom : '</div>',
+    res_item_tpl   : '<div class="column item is-half"><article class="tile is-child box" style="background-color: #f8f8f8; border-bottom: 3px solid #005ea5; border-radius: 0px;"><p class="is-size-4"><strong><a class="title-link" href="[LINK]">[TITLE]</a></strong></p><p class="item-abstract">[SUMMARY]</p><p style="margin-top: 5px"><a href="[URL]">More information</a></p><div class="item-taglist">[TAGS]</div></article></div>',
+    add_searchlink : '<p><a href="https://duckduckgo.com/?q=[QUERY]" target="_blank"><i>Not satisfied with the search results? External search via DuckDuckGo...</i></a></p>'
+};
+
+// Translation of section name (optional)
+let section_trans = {
+    "post" : "Blog",
+    // "other-section" : "Other Section"
+};
+
+let searchfield_weight = {
+    "title"   : 5,
+    "tags"    : 5,
+    "summary" : 2,
+    "content" : 1
+};
+// CUSTOM AREA END
+</script>
+<script type="text/javascript" src="/js/search.js"></script>

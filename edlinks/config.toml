@@ -1,6 +1,9 @@
-baseURL = ""
+baseURL = "educationfunding.uk"
 languageCode = "en-gb"
 title = "Education Funding UK"
+
+[outputs]
+   home = [ "HTML", "JSON" ]
 
 [markup]
   [markup.goldmark]

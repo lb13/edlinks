@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>apprenticeships on Education Funding UK</title>
-    <link>/tags/apprenticeships/</link>
+    <link>educationfunding.uk/tags/apprenticeships/</link>
     <description>Recent content in apprenticeships on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="/tags/apprenticeships/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="educationfunding.uk/tags/apprenticeships/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Apprenticeship funding rules</title>
-      <link>/resource/apprenticeship-funding-rules/</link>
+      <link>educationfunding.uk/resource/apprenticeship-funding-rules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resource/apprenticeship-funding-rules/</guid>
+      <guid>educationfunding.uk/resource/apprenticeship-funding-rules/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Apprenticeship Service</title>
-      <link>/resource/apprenticeship-service/</link>
+      <link>educationfunding.uk/resource/apprenticeship-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resource/apprenticeship-service/</guid>
+      <guid>educationfunding.uk/resource/apprenticeship-service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Apprenticeship technical funding guide</title>
-      <link>/resource/apprenticeship-technical-funding-guide/</link>
+      <link>educationfunding.uk/resource/apprenticeship-technical-funding-guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resource/apprenticeship-technical-funding-guide/</guid>
+      <guid>educationfunding.uk/resource/apprenticeship-technical-funding-guide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Employer Data Service</title>
-      <link>/resource/employer-data-service/</link>
+      <link>educationfunding.uk/resource/employer-data-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resource/employer-data-service/</guid>
+      <guid>educationfunding.uk/resource/employer-data-service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Find an Apprenticeship</title>
-      <link>/resource/find-an-apprenticeship/</link>
+      <link>educationfunding.uk/resource/find-an-apprenticeship/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resource/find-an-apprenticeship/</guid>
+      <guid>educationfunding.uk/resource/find-an-apprenticeship/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Find an end-point assessment organisation for your apprentice</title>
-      <link>/resource/find-an-end-point-assessment-organisation-for-your-apprentice/</link>
+      <link>educationfunding.uk/resource/find-an-end-point-assessment-organisation-for-your-apprentice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resource/find-an-end-point-assessment-organisation-for-your-apprentice/</guid>
+      <guid>educationfunding.uk/resource/find-an-end-point-assessment-organisation-for-your-apprentice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Institute for Apprenticeships and Technical Education</title>
-      <link>/resource/institute-for-apprenticeships-and-technical-education/</link>
+      <link>educationfunding.uk/resource/institute-for-apprenticeships-and-technical-education/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resource/institute-for-apprenticeships-and-technical-education/</guid>
+      <guid>educationfunding.uk/resource/institute-for-apprenticeships-and-technical-education/</guid>
       <description></description>
     </item>
     
