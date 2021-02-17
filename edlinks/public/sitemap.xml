@@ -124,7 +124,23 @@
   </url>
   
   <url>
+    <loc>/tags/abf19/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/abf20/</loc>
+  </url>
+  
+  <url>
     <loc>/site/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/abr19/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/abr20/</loc>
   </url>
   
   <url>
@@ -196,7 +212,15 @@
   </url>
   
   <url>
+    <loc>/tags/all19/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/allocation/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/allr20/</loc>
   </url>
   
   <url>
@@ -205,6 +229,14 @@
   
   <url>
     <loc>/tags/aoc/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/appendices-validation-rules-and-schema-ilr-2020-to-2021/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/appendices-validation-rules-and-schema-ilr-2021-to-2022/</loc>
   </url>
   
   <url>
@@ -248,6 +280,10 @@
   </url>
   
   <url>
+    <loc>/resource/check-how-accurate-your-ilr-data-is-with-fis/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/college-financial-planning-handbook-and-financial-plan/</loc>
   </url>
   
@@ -276,6 +312,10 @@
   </url>
   
   <url>
+    <loc>/resource/data-collection-maintenance-schedule/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/devolution/</loc>
   </url>
   
@@ -289,6 +329,10 @@
   
   <url>
     <loc>/resource/dfe-services/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/earnings-adjustment-statement-eas/</loc>
   </url>
   
   <url>
@@ -328,6 +372,10 @@
   </url>
   
   <url>
+    <loc>/resource/esfa-financial-assurance-monitoring-the-funding-rules/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/esfa-financial-health-assessment/</loc>
   </url>
   
@@ -344,6 +392,10 @@
   </url>
   
   <url>
+    <loc>/resource/esfa-funding-claims-and-reconciliation/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/esfa-list-of-qualifications-approved-for-funding/</loc>
   </url>
   
@@ -353,6 +405,14 @@
   
   <url>
     <loc>/resource/esfa-post-16-intervention-and-accountability/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/field-collection-requirement-tables-2020-to-2021/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/field-collection-requirement-tables-latest-version/</loc>
   </url>
   
   <url>
@@ -376,6 +436,18 @@
   </url>
   
   <url>
+    <loc>/resource/find-an-inspection-report/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/find-and-compare-schools-in-england/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/fis/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/free-meals-in-further-education-funded-institutions-guide-for-the-2020-to-2021-academic-year/</loc>
   </url>
   
@@ -396,6 +468,10 @@
   </url>
   
   <url>
+    <loc>/tags/funding-claims/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/funding-education-for-16-to-19-year-olds/</loc>
   </url>
   
@@ -413,6 +489,10 @@
   
   <url>
     <loc>/tags/funding-rules/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/get-information-about-schools/</loc>
   </url>
   
   <url>
@@ -508,6 +588,10 @@
   </url>
   
   <url>
+    <loc>/resource/how-the-esfa-measures-the-performance-of-fe-providers-it-funds/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/hub-reports/</loc>
   </url>
   
@@ -517,6 +601,14 @@
   
   <url>
     <loc>/tags/ilr/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/ilr-data-provider-data-self-assessment-toolkit-pdsat/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/ilr-specification-validation-rules-and-appendices-2019-to-2020/</loc>
   </url>
   
   <url>
@@ -572,10 +664,6 @@
   </url>
   
   <url>
-    <loc>/tags/national-career-service/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/national-careers-service/</loc>
   </url>
   
@@ -616,7 +704,15 @@
   </url>
   
   <url>
+    <loc>/tags/ofsted/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/online-services/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/pdsat/</loc>
   </url>
   
   <url>
@@ -624,7 +720,47 @@
   </url>
   
   <url>
+    <loc>/resource/provider-support-manual-2018-to-2019/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/provider-support-manual-2019-to-2020/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/provider-support-manual-2020-to-2021/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/provider-support-manual-latest-version/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/psm/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/psm18/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/psm19/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/psm20/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/publish-to-the-course-directory/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/qar/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/qualification-achievement-rates-and-minimum-standards/</loc>
   </url>
   
   <url>
@@ -633,6 +769,10 @@
   
   <url>
     <loc>/resource/qualifications-and-public-funding/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/quality/</loc>
   </url>
   
   <url>
@@ -664,7 +804,11 @@
   </url>
   
   <url>
-    <loc>/resource/specification-of-the-individualised-learner-record/</loc>
+    <loc>/resource/specification-of-the-individualised-learner-record-latest-version/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/specification-of-the-individualised-learner-record-for-2020-to-2021/</loc>
   </url>
   
   <url>
@@ -724,6 +868,10 @@
   </url>
   
   <url>
+    <loc>/resource/uk-register-of-learning-providers/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/view-your-education-data/</loc>
   </url>
   
@@ -749,6 +897,22 @@
   
   <url>
     <loc>/tags/wyca/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/ypf/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/ypi/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/ypr/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/yps/</loc>
   </url>
   
 </urlset>
