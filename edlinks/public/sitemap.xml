@@ -428,6 +428,10 @@
   </url>
   
   <url>
+    <loc>/resource/find-a-further-education-service/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/find-a-learning-aim/</loc>
   </url>
   
@@ -705,6 +709,18 @@
   
   <url>
     <loc>/tags/ntca/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/office-for-students/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/office-for-students-ofs/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/ofs/</loc>
   </url>
   
   <url>

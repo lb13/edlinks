@@ -357,6 +357,7 @@ function customSearchResults() {
         }
         if (templ.includes("[TAGS]")) {
           if (tags != '') { 
+            
             tags  = tags.join(",");
             tags  = tags.replace(/,/g, ", ");
             templ = templ.replace("[TAGS]", tags);

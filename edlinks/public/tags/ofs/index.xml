@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ofs on Education Funding UK</title>
+    <link>/tags/ofs/</link>
+    <description>Recent content in ofs on Education Funding UK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="/tags/ofs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Office for Students (OfS)</title>
+      <link>/resource/office-for-students-ofs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/office-for-students-ofs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OfS Portal</title>
+      <link>/resource/ofs-portal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/ofs-portal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OfS Portal User Administration</title>
+      <link>/resource/ofs-portal-user-administration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/ofs-portal-user-administration/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

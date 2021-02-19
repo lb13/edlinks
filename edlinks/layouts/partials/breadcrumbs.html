@@ -1,7 +1,13 @@
 <div class="columns is-mobile m-0">
     <div class="is-offset-1 pl-0 column is-10 has-text-black">
         <p>
-            <a style="color: inherit; text-decoration: none;" href="/">Home</a> > <strong style="color: #00703c">{{ .Title }}</strong>
+            <a style="color: inherit; text-decoration: none;" href="/">Home</a> > 
+            
+            {{ if in (print .Permalink) "tags"}}
+            <a style="color: inherit; text-decoration: none;" href="/tags/">Tags</a> > 
+            {{ end }}
+
+            <strong style="color: #00703c">{{ .Title }}</strong>
         </p>
     </div>
 </div>

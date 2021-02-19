@@ -10,7 +10,11 @@
             <div class="column item is-half">
                 <article class="tile is-child box" style="background-color: #f8f8f8; border-bottom: 3px solid #005ea5; border-radius: 0px;">
                     
+                    {{ if (isset .Params "link") }}
                     <p class="is-size-4"><strong><a class="title-link" href="{{.Params.link}}">{{ .Title }}</a></strong></p>
+                    {{ else }}
+                    <p class="is-size-4"><strong><a class="title-link" href="{{.Permalink}}">{{ .Title }}</a></strong></p>
+                    {{ end }}
                     
                     <p class="item-abstract">{{ .Description | truncate 200 }}</p>
                     
