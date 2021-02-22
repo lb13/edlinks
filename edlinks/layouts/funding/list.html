@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+    {{ partial "head.html" . }}
+
+    <body>
+
+        {{ partial "header.html" . }}
+
+
+
+
+        <div class="columns is-mobile m-0">
+            <div class="column is-10 is-offset-1 content">
+                <h1 class="is-size-4"><strong>{{ .Title }}</strong></h1>
+
+                <div class="nav navbar-nav pb-5">
+                    {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+                </div>
+                {{ define "breadcrumbnav" }}
+                    {{ if .p1.Parent }}
+                        {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
+                    {{ else if not .p1.IsHome }}
+                        {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+                    {{ end }}
+                <span{{ if eq .p1 .p2 }} style="color: #00703c" class="has-text-weight-bold"{{ end }}>
+                    <a {{ if eq .p1 .p2 }}style="color: #00703c; text-decoration: none;"{{ else }}style="color: #000000; text-decoration: none;"{{ end }} href="{{ .p1.Permalink }}">{{ if isset .p1.Params "subtitle" }}{{ .p1.Params.subtitle }}{{ else }}{{ .p1.Title }}{{ end }}</a>{{ if ne .p1 .p2 }} / {{ end }}
+                </span>
+                {{ end }}
+
+                {{ with .Params.disclaimer }}
+                <div class="notification is-warning">
+                    This tool will help you to understand the funding available for different learners, but its guidance should not be viewed as a guarantee of government funding.<br><br>You should always refer to the published regulations for the relevant funding agency if you're unsure.
+                </div>
+                {{ end }}
+
+                <p class="is-size-3 my-4">{{ .Params.question }}</p>
+                
+                <p class="">{{ .Content }}</p>
+
+                {{ with .Params.answers }}
+
+                <select class="input mb-3" id="answerlist">
+                <option value="">Select from list</option>
+                {{ range . }}
+                <option value="{{ .Link }}">{{ .Name }}</option>
+                {{ end }}
+                </select>     
+                {{ end }}
+
+                <div class="buttons has-addons mt-3">
+                    <button class="button" onclick="backtoparent()">Back</button>
+                    <button class="button" style="background-color: #00703c; color: #FFFFFF" id="nextbutton" onclick="progress()" disabled>Next</button>
+                </div>
+                
+            </div>
+        </div>
+
+        
+
+        <script>
+            document.getElementById('answerlist').addEventListener("change",function(){
+                o = document.getElementById('answerlist').value
+                b = document.getElementById("nextbutton")
+
+                if ( o == "" ) {
+                    b.disabled = true
+                }
+                else {
+                    b.disabled = false
+                }
+            });
+
+            function backtoparent() {
+                window.open({{ .Parent.Permalink }},'_self');
+            }
+            function progress() {
+                x = document.getElementById('answerlist').value;
+                window.open(x,'_self');
+            }
+            
+        </script>
+
+        {{ partial "footer.html" . }}
+
+    </body>
+</html>

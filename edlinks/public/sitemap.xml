@@ -476,6 +476,138 @@
   </url>
   
   <url>
+    <loc>/funding/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/benefits/joint-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/benefits/joint-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/benefits/joint-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/benefits/single-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/benefits/single-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/benefits/single-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/no-benefits/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/employed/no-benefits/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/unemployed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/unemployed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/unemployed/benefits/joint-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/unemployed/benefits/joint-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/unemployed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/unemployed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/unemployed/benefits/joint-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/unemployed/benefits/single-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/unemployed/benefits/single-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/unemployed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/unemployed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/unemployed/benefits/single-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry/unemployed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/weca/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/weca/entrylevel/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/funding-claims/</loc>
   </url>
   

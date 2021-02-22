@@ -170,6 +170,6 @@ strong {
 }
 
 
-.input:focus {
+.input:focus, .button:focus {
     outline: 5px solid #ffdd00
 }
