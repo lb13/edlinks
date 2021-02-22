@@ -7,11 +7,13 @@
 
         {{ partial "header.html" . }}
 
-
-
-
         <div class="columns is-mobile m-0">
             <div class="column is-10 is-offset-1 content">
+
+                <div class="notification is-danger py-0">
+                    This tool is still in development.
+                </div>
+
                 <h1 class="is-size-4"><strong>{{ .Title }}</strong></h1>
 
                 <div class="nav navbar-nav pb-5">
@@ -23,9 +25,9 @@
                     {{ else if not .p1.IsHome }}
                         {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
                     {{ end }}
-                <span{{ if eq .p1 .p2 }} style="color: #00703c" class="has-text-weight-bold"{{ end }}>
-                    <a {{ if eq .p1 .p2 }}style="color: #00703c; text-decoration: none;"{{ else }}style="color: #000000; text-decoration: none;"{{ end }} href="{{ .p1.Permalink }}">{{ if isset .p1.Params "subtitle" }}{{ .p1.Params.subtitle }}{{ else }}{{ .p1.Title }}{{ end }}</a>{{ if ne .p1 .p2 }} / {{ end }}
-                </span>
+                    <span{{ if eq .p1 .p2 }} style="color: #00703c" class="has-text-weight-bold"{{ end }}>
+                        <a {{ if eq .p1 .p2 }}style="color: #00703c; text-decoration: none;"{{ else }}style="color: #000000; text-decoration: none;"{{ end }} href="{{ .p1.Permalink }}">{{ if isset .p1.Params "subtitle" }}{{ .p1.Params.subtitle }}{{ else }}{{ .p1.Title }}{{ end }}</a>{{ if ne .p1 .p2 }} / {{ end }}
+                    </span>
                 {{ end }}
 
                 {{ with .Params.disclaimer }}
