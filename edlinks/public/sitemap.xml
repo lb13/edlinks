@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/</loc>
+    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/welcome/</loc>
+    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/14-16-funding/</loc>
   </url>
   
@@ -347,10 +362,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-  </url>
-  
-  <url>
     <loc>/resource/educational-setting-status-form/</loc>
   </url>
   
@@ -475,155 +486,155 @@
   </url>
   
   <url>
-    <loc>/funding/</loc>
+    <loc>/funding-assessment/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/</loc>
+    <loc>/funding-assessment/esfa/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry-em/</loc>
+    <loc>/funding-assessment/esfa/entry-em/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry-em/already-achieved/</loc>
+    <loc>/funding-assessment/esfa/entry-em/already-achieved/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry-em/not-yet-achieved/</loc>
+    <loc>/funding-assessment/esfa/entry-em/not-yet-achieved/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/</loc>
+    <loc>/funding-assessment/esfa/entry/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/benefits/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/benefits/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/benefits/joint-claim/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/benefits/joint-claim/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/benefits/joint-claim/meets-monthly-threshold/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/benefits/joint-claim/meets-monthly-threshold/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/benefits/joint-claim/under-monthly-threshold/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/benefits/joint-claim/under-monthly-threshold/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/benefits/single-claim/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/benefits/single-claim/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/benefits/single-claim/meets-monthly-threshold/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/benefits/single-claim/meets-monthly-threshold/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/benefits/single-claim/under-monthly-threshold/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/benefits/single-claim/under-monthly-threshold/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/no-benefits/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/no-benefits/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/no-benefits/low-wage/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/no-benefits/low-wage/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/employed/no-benefits/not-low-wage/</loc>
+    <loc>/funding-assessment/esfa/entry/employed/no-benefits/not-low-wage/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/unemployed/</loc>
+    <loc>/funding-assessment/esfa/entry/unemployed/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/unemployed/benefits/</loc>
+    <loc>/funding-assessment/esfa/entry/unemployed/benefits/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/unemployed/no-benefits/</loc>
+    <loc>/funding-assessment/esfa/entry/unemployed/no-benefits/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/level1-em/</loc>
+    <loc>/funding-assessment/esfa/level1-em/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/level1-em/already-achieved/</loc>
+    <loc>/funding-assessment/esfa/level1-em/already-achieved/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/level1-em/not-yet-achieved/</loc>
+    <loc>/funding-assessment/esfa/level1-em/not-yet-achieved/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/level2-em/</loc>
+    <loc>/funding-assessment/esfa/level2-em/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/level2-em/already-achieved/</loc>
+    <loc>/funding-assessment/esfa/level2-em/already-achieved/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/level2-em/not-yet-achieved/</loc>
+    <loc>/funding-assessment/esfa/level2-em/not-yet-achieved/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/level3-le/1923/</loc>
+    <loc>/funding-assessment/esfa/level3-le/1923/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/level3-le/1923/already-achieved/</loc>
+    <loc>/funding-assessment/esfa/level3-le/1923/already-achieved/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/level3-le/1923/not-yet-achieved/</loc>
+    <loc>/funding-assessment/esfa/level3-le/1923/not-yet-achieved/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/level3-le/24plus/</loc>
+    <loc>/funding-assessment/esfa/level3-le/24plus/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/level3-le/</loc>
+    <loc>/funding-assessment/esfa/level3-le/</loc>
   </url>
   
   <url>
-    <loc>/funding/esfa/other/</loc>
+    <loc>/funding-assessment/esfa/other/</loc>
   </url>
   
   <url>
-    <loc>/funding/weca/</loc>
+    <loc>/funding-assessment/weca/</loc>
   </url>
   
   <url>
-    <loc>/funding/weca/entrylevel/</loc>
+    <loc>/funding-assessment/weca/entrylevel/</loc>
   </url>
   
   <url>

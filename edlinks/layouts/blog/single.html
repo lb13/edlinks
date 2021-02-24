@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    {{ partial "head.html" . }}
+
+    <body>
+        {{ partial "header.html" . }}
+
+        {{ partial  "breadcrumbs.html" . }}
+    
+            <div style="background-color: #FFFFFF;" class="content columns is-mobile m-0">
+                
+                <div class="column is-10 is-offset-1">
+
+                    <h1 class="title is-1">
+                        {{ .Title }}
+                    </h1>
+
+                    <p class="has-text-black">{{ .Date }}</p>
+
+                    <hr>
+                    
+                    {{ .Content }}
+
+                </div>
+            
+            </div>
+
+
+        {{ partial "footer.html" . }}
+
+        
+
+    </body>
+</html>
