@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/search/</loc>
-    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/14-16-funding/</loc>
   </url>
   
@@ -133,6 +128,10 @@
   
   <url>
     <loc>/site/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/abr/</loc>
   </url>
   
   <url>
@@ -484,6 +483,18 @@
   </url>
   
   <url>
+    <loc>/funding/esfa/entry-em/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry-em/already-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/entry-em/not-yet-achieved/</loc>
+  </url>
+  
+  <url>
     <loc>/funding/esfa/entry/</loc>
   </url>
   
@@ -556,47 +567,55 @@
   </url>
   
   <url>
-    <loc>/funding/esfa/entry/unemployed/benefits/joint-claim/</loc>
-  </url>
-  
-  <url>
-    <loc>/funding/esfa/entry/unemployed/benefits/joint-claim/meets-monthly-threshold/</loc>
-  </url>
-  
-  <url>
-    <loc>/funding/esfa/entry/unemployed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
-  </url>
-  
-  <url>
-    <loc>/funding/esfa/entry/unemployed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
-  </url>
-  
-  <url>
-    <loc>/funding/esfa/entry/unemployed/benefits/joint-claim/under-monthly-threshold/</loc>
-  </url>
-  
-  <url>
-    <loc>/funding/esfa/entry/unemployed/benefits/single-claim/</loc>
-  </url>
-  
-  <url>
-    <loc>/funding/esfa/entry/unemployed/benefits/single-claim/meets-monthly-threshold/</loc>
-  </url>
-  
-  <url>
-    <loc>/funding/esfa/entry/unemployed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
-  </url>
-  
-  <url>
-    <loc>/funding/esfa/entry/unemployed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
-  </url>
-  
-  <url>
-    <loc>/funding/esfa/entry/unemployed/benefits/single-claim/under-monthly-threshold/</loc>
-  </url>
-  
-  <url>
     <loc>/funding/esfa/entry/unemployed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/level1-em/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/level1-em/already-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/level1-em/not-yet-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/level2-em/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/level2-em/already-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/level2-em/not-yet-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/level3-le/1923/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/level3-le/1923/already-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/level3-le/1923/not-yet-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/level3-le/24plus/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/level3-le/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding/esfa/other/</loc>
   </url>
   
   <url>
@@ -808,6 +827,14 @@
   </url>
   
   <url>
+    <loc>/tags/nar/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/national-achievement-rates/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/national-careers-service/</loc>
   </url>
   
@@ -981,6 +1008,10 @@
   
   <url>
     <loc>/resource/specification-of-the-individualised-learner-record-for-2020-to-2021/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/statistics-national-achievement-rates-tables/</loc>
   </url>
   
   <url>

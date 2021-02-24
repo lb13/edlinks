@@ -1,12 +1,8 @@
 ---
 Title: Funding Assessment
 Subtitle: Benefits
-
-Question: Do they make a single claim, or are they part of a joint claim?
-
-Answers:
-- Name: "Single Claim"
-  Link: "single-claim"
-- Name: "Joint Claim"
-  Link: "joint-claim"
 ---
+
+<div class="notification is-success is-light">
+  The learner is eligible for <strong>full funding</strong> as they meet the ESFA's definition of unemployed with benefits.
+</div>
