@@ -1,13 +1,17 @@
 <div class="columns is-mobile m-0">
     <div class="is-offset-1 pl-0 column is-10 has-text-black">
-        <p>
-            <a style="color: inherit; text-decoration: none;" href="/">Home</a> > 
-            
-            {{ if in (print .Permalink) "tags"}}
-            <a style="color: inherit; text-decoration: none;" href="/tags/">Tags</a> > 
+        <div class="nav navbar-nav">
+            {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+        </div>
+        {{ define "breadcrumbnav" }}
+            {{ if .p1.Parent }}
+                {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
+            {{ else if not .p1.IsHome }}
+                {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
             {{ end }}
-
-            <strong style="color: #00703c">{{ .Title }}</strong>
-        </p>
+            <span{{ if eq .p1 .p2 }} style="color: #00703c" class="has-text-weight-bold"{{ end }}>
+                <a {{ if eq .p1 .p2 }}style="color: #00703c; text-decoration: none;"{{ else }}style="color: #000000; text-decoration: none;"{{ end }} href="{{ .p1.Permalink }}">{{ if isset .p1.Params "subtitle" }}{{ .p1.Params.subtitle }}{{ else }}{{ .p1.Title }}{{ end }}</a>{{ if ne .p1 .p2 }} / {{ end }}
+            </span>
+        {{ end }}
     </div>
 </div>
