@@ -99,3 +99,12 @@ strong {
     outline: 5px solid #ffdd00
 }
 
+.code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    white-space: nowrap;
+    background-color: #f9f2f4;
+    border-radius: 0;
+    font-family: Menlo,Monaco,Consolas,courier new,monospace;
+}
