@@ -148,6 +148,10 @@
   </url>
   
   <url>
+    <loc>/resource/aat/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/abf19/</loc>
   </url>
   
@@ -169,6 +173,10 @@
   
   <url>
     <loc>/tags/abr20/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/acca-the-association-of-chartered-certified-accountants/</loc>
   </url>
   
   <url>
@@ -236,6 +244,10 @@
   </url>
   
   <url>
+    <loc>/resource/aim-qualifications-and-assessment-group/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/all/</loc>
   </url>
   
@@ -300,6 +312,18 @@
   </url>
   
   <url>
+    <loc>/resource/aqa/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/ascentis/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/awarding-bodies/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/cambridgeshire-and-peterborough-combined-authority-cpca/</loc>
   </url>
   
@@ -313,6 +337,10 @@
   
   <url>
     <loc>/resource/check-how-accurate-your-ilr-data-is-with-fis/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/city-and-guilds/</loc>
   </url>
   
   <url>
@@ -365,6 +393,10 @@
   
   <url>
     <loc>/resource/dfe-services/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/eal/</loc>
   </url>
   
   <url>
@@ -772,6 +804,10 @@
   </url>
   
   <url>
+    <loc>/resource/highfield-qualifications/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/home-education/</loc>
   </url>
   
@@ -912,6 +948,10 @@
   </url>
   
   <url>
+    <loc>/resource/ocr-oxford-cambridge-and-rsa/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/office-for-students/</loc>
   </url>
   
@@ -941,6 +981,10 @@
   
   <url>
     <loc>/tags/pdsat/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/pearson/</loc>
   </url>
   
   <url>
@@ -1112,11 +1156,19 @@
   </url>
   
   <url>
+    <loc>/resource/ual-awarding-body/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/uk-register-of-learning-providers/</loc>
   </url>
   
   <url>
     <loc>/resource/view-your-education-data/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/vtct/</loc>
   </url>
   
   <url>

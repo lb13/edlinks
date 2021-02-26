@@ -28,5 +28,11 @@ It does not provide the level of detail found in either of the other services, b
 
 https://www.qualifications.education.gov.uk
 
+## Awarding bodies
+You can find a list of commonly used awarding bodies here.
+
+https://educationfunding.uk/tags/awarding-bodies
+
 ## Which service to use?
 Depending on your goal, you could start with any of these services - but they will all offer useful information about a qualification, and should be used together where possible.
+
