@@ -10,7 +10,7 @@ Answers:
 - Name: "Entry Level (Functional Skills English or Maths)"
   Link: "entry-em"
 - Name: Level 1 (local flexibility)
-  Link: level1
+  Link: level1-lf
 - Name: Level 1 (Functional Skills English or Maths)
   Link: level1-em
 - Name: Level 2 (local flexibility)
