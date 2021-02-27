@@ -656,6 +656,82 @@
   </url>
   
   <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/benefits/joint-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/benefits/joint-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/benefits/joint-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/benefits/single-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/benefits/single-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/benefits/single-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/no-benefits/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/employed/no-benefits/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/unemployed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/unemployed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/1923/achieved-full-level2/unemployed/no-benefits/</loc>
+  </url>
+  
+  <url>
     <loc>/funding-assessment/esfa/level1-lf/1923/no-full-level2/</loc>
   </url>
   
@@ -737,6 +813,82 @@
   
   <url>
     <loc>/funding-assessment/esfa/level1-lf/1923/no-full-level2/progression/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/benefits/joint-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/benefits/joint-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/benefits/joint-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/benefits/single-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/benefits/single-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/benefits/single-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/no-benefits/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/employed/no-benefits/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/unemployed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/unemployed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/esfa/level1-lf/24plus/unemployed/no-benefits/</loc>
   </url>
   
   <url>
