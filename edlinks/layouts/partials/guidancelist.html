@@ -1,7 +1,7 @@
 <div class="columns is-mobile m-0">
-    <div class="column is-8 is-offset-2 p-0">
+    <div class="column is-10 is-offset-1 p-0">
         
-        <h2 class="is-size-2 mb-4 mt-6"><strong>Guidance Articles</strong></h2>
+        <h2 class="is-size-2 mb-4 mt-5"><strong>Guidance Articles</strong></h2>
         <hr style="margin: 10px 0px 30px 0px; background-color: black">
 
         <div class="columns is-multiline m-0">
@@ -10,16 +10,8 @@
             <div class="column item is-half">
                 <article class="tile is-child box" style="background-color: #f8f8f8; border-bottom: 3px solid #005ea5; border-radius: 0px;">
                     
-                    {{ if (isset .Params "link") }}
-                    <p class="is-size-4"><strong><a class="title-link" href="{{.Params.link}}">{{ .Title }}</a></strong></p>
-                    {{ else }}
                     <p class="is-size-4"><strong><a class="title-link" href="{{.Permalink}}">{{ .Title }}</a></strong></p>
-                    {{ end }}
-                    
-                    <p class="item-abstract">{{ .Description | truncate 200 }}</p>
-                    
-                    <p style="margin-top: 5px"><a href="{{.Permalink}}">More information</a></p>
-    
+                        
                     {{ if (isset .Params "tags") }}
                     <hr>
                     <div class="item-taglist">
