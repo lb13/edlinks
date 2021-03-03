@@ -1264,7 +1264,795 @@
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/entrylevel/</loc>
+    <loc>/funding-assessment/weca/entry-em/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry-em/already-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry-em/not-yet-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/benefits/joint-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/benefits/joint-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/benefits/joint-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/benefits/single-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/benefits/single-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/benefits/single-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/no-benefits/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/employed/no-benefits/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/unemployed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/unemployed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/entry/unemployed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-em/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-em/already-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-em/not-yet-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/benefits/joint-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/benefits/joint-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/benefits/joint-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/benefits/single-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/benefits/single-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/benefits/single-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/no-benefits/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/employed/no-benefits/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/unemployed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/unemployed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/achieved-full-level2/unemployed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/benefits/joint-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/benefits/joint-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/benefits/joint-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/benefits/single-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/benefits/single-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/benefits/single-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/no-benefits/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/employed/no-benefits/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/unemployed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/unemployed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/no-progression/unemployed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/1923/no-full-level2/progression/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/benefits/joint-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/benefits/joint-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/benefits/joint-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/benefits/single-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/benefits/single-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/benefits/single-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/no-benefits/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/employed/no-benefits/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/unemployed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/unemployed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/24plus/unemployed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level1-lf/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-em/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-em/already-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-em/not-yet-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/benefits/joint-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/benefits/joint-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/benefits/joint-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/benefits/single-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/benefits/single-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/benefits/single-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/no-benefits/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/employed/no-benefits/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/unemployed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/unemployed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/achieved-full-level2/unemployed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/1923/no-full-level2/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/benefits/joint-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/benefits/joint-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/benefits/joint-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/benefits/single-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/benefits/single-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/benefits/single-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/no-benefits/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/employed/no-benefits/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/unemployed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/unemployed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/2449/unemployed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-available/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/benefits/joint-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/benefits/joint-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/benefits/joint-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/benefits/single-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/benefits/single-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/benefits/single-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/no-benefits/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/employed/no-benefits/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/unemployed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/unemployed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/50plus/level2-spent/unemployed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-le/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/benefits/joint-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/benefits/joint-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/benefits/joint-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/benefits/single-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/benefits/single-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/benefits/single-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/no-benefits/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/employed/no-benefits/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/unemployed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/unemployed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/achieved-full-level2/unemployed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/1923/no-full-level2/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/benefits/joint-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/benefits/joint-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/benefits/joint-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/benefits/joint-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/benefits/joint-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/benefits/single-claim/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/benefits/single-claim/meets-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/benefits/single-claim/meets-monthly-threshold/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/benefits/single-claim/meets-monthly-threshold/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/benefits/single-claim/under-monthly-threshold/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/no-benefits/low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/employed/no-benefits/not-low-wage/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/unemployed/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/unemployed/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/24plus/unemployed/no-benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level2-lf/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3-le/1925/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3-le/1925/already-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3-le/1925/not-yet-achieved/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3-le/24plus/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3-le/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/other/</loc>
   </url>
   
   <url>
