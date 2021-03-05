@@ -12,27 +12,15 @@
                 
                 <div class="column is-10 is-offset-1">
 
-                    <h1 class="title is-1">
+                    <hr style="background-color: #00703c;">
+
+                    <h1 class="title is-1 pt-0 mt-0">
                         {{ .Title }}
                     </h1>
 
-                    {{ if ( isset .Params "description" ) }}
-                    <p class="has-text-black">{{ .Description }}</p>
-                    {{ end }}
+                    <p class="has-text-black">{{ .Date.Format "Monday, 2 January 2006" }}</p>
 
-                    <div class="item-taglist">
-                        {{ range .Params.tags }}
-                        <span><a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a></span>&nbsp;
-                        {{ end }}
-                    </div>
-
-                    <p class="is-5 pt-4">
-                        <a href="{{ .Params.link }}">{{ .Params.link }}</a>
-                    </p>
-
-                    {{ if ( isset .Params "link" ) }}
-                    <a href="/site/contact/" class="mt-0 mb-5 button" style="background-color: #d4351c; color: #FFFFFF; text-decoration: none; border: none; border-radius: 0px; -webkit-box-shadow: 0 2px 0 #55150b; box-shadow: 0 2px 0 #55150b;" tabindex="0">Report Broken Link</a>
-                    {{ end }}
+                    <hr style="background-color: #00703c;">
 
                     {{ .Content }}
 

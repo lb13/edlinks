@@ -4,12 +4,17 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/202103-news/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -340,6 +345,10 @@
   </url>
   
   <url>
+    <loc>/resource/check-ilr-reports-for-possible-data-errors-in-your-return/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/city-and-guilds/</loc>
   </url>
   
@@ -473,6 +482,10 @@
   
   <url>
     <loc>/resource/esfa-post-16-intervention-and-accountability/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/esfa-update/</loc>
   </url>
   
   <url>
@@ -2036,15 +2049,27 @@
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3-le/1925/already-achieved/</loc>
+    <loc>/funding-assessment/weca/level3-le/1925/level3-available/</loc>
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3-le/1925/not-yet-achieved/</loc>
+    <loc>/funding-assessment/weca/level3-le/1925/level3-spent/</loc>
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3-le/24plus/</loc>
+    <loc>/funding-assessment/weca/level3-le/2649/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3-le/50plus/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3-le/50plus/level3-available/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3-le/50plus/level3-spent/</loc>
   </url>
   
   <url>
@@ -2252,6 +2277,10 @@
   </url>
   
   <url>
+    <loc>/tags/loans/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/manage-your-education-and-skills-funding/</loc>
   </url>
   
@@ -2448,6 +2477,10 @@
   </url>
   
   <url>
+    <loc>/tags/slc/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/specification-of-the-individualised-learner-record-latest-version/</loc>
   </url>
   
@@ -2457,6 +2490,10 @@
   
   <url>
     <loc>/resource/statistics-national-achievement-rates-tables/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/student-finance-england-for-practitioners/</loc>
   </url>
   
   <url>
@@ -2509,6 +2546,10 @@
   
   <url>
     <loc>/tags/traineeships/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/tuition-loan/</loc>
   </url>
   
   <url>

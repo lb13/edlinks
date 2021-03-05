@@ -6,10 +6,22 @@
     <description>Recent content in Blog on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Latest News (March 2021)</title>
+      <link>/blog/202103-news/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/202103-news/</guid>
+      <description>Hello again!
+The new site has been running for a few weeks now, and feedback has been good about the core concept and functionality.
+Some users rightly pointed out that the design was too close to that used for official government services, and despite the disclaimers dotted around the site, was liable to cause confusion and mislead people.
+This was certainly not my intention - rather I wanted to provide a seamless experience when navigating between different resources - but I can see that it was a little too close for comfort.</description>
+    </item>
     
     <item>
       <title>Welcome</title>
