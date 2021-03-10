@@ -12,17 +12,18 @@
                 
                 <div class="column is-10 is-offset-1">
 
-                    <hr style="background-color: #00703c;">
+                    <div style="background-color: #BFDBCE; border-top: 5px solid #00703c; border-bottom: 5px solid #00703c; padding: 0px 10px">
+                        <h1 class="title is-1 pt-0 mt-0">
+                            {{ .Title }}
+                        </h1>
+    
+                        <p class="has-text-black">{{ .Date.Format "Monday, 2 January 2006" }}</p>
+                    </div>
 
-                    <h1 class="title is-1 pt-0 mt-0">
-                        {{ .Title }}
-                    </h1>
-
-                    <p class="has-text-black">{{ .Date.Format "Monday, 2 January 2006" }}</p>
-
-                    <hr style="background-color: #00703c;">
-
-                    {{ .Content }}
+                    <div class="has-text-black" style="margin-top: 20px">
+                        {{ .Content }}
+                    </div>
+                    
 
                 </div>
             

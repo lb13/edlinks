@@ -58,7 +58,7 @@
 <div class="columns is-mobile m-0 p-0 pb-3">
     <div class="column is-10 is-offset-1 pl-0">
         <p class="has-text-grey is-size-6 is-italic">
-            Last updated 5 March 2021 <span style="color: red">new blog post</span>
+            Last updated 10 March 2021 <span style="color: red"></span>
         </p>
     </div>
 </div>
@@ -118,15 +118,45 @@
                 <div class="py-3"></div>
 
                 
+                <style>
+                    .radio {
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
 
-                <select class="input mb-3" id="answerlist">
-                <option value="">Select from list</option>
+                        border-radius: 50%;
+                        width: 30px;
+                        height: 30px;
+
+                        border: 2px solid #999;
+                        transition: 0.2s all linear;
+                        margin-right: 10px;
+
+                        position: relative;
+                        top: 8px;
+                    }
+
+                    .radio:checked {
+                        background: black;
+                        border: 5px solid #ffdd00;
+                        
+                    }
+
+                    .radiolabel {
+                        line-height: 32px;
+                        display: block;
+                        line-height: 2;
+                    }
+                </style>
+
                 
-                <option value="achieved-full-level2">Yes</option>
+                <label class="radiolabel">
+                <input class="radio" type="radio" name="answers" onchange="checkResponse(this)" value="achieved-full-level2">Yes</label>
                 
-                <option value="no-full-level2">No</option>
+                <label class="radiolabel">
+                <input class="radio" type="radio" name="answers" onchange="checkResponse(this)" value="no-full-level2">No</label>
                 
-                </select>     
+                
                 
 
                 <div class="buttons has-addons mt-3">
@@ -140,8 +170,10 @@
         
 
         <script>
-            document.getElementById('answerlist').addEventListener("change",function(){
-                o = document.getElementById('answerlist').value
+
+
+            function checkResponse(choice) {
+                o = choice.value
                 b = document.getElementById("nextbutton")
 
                 if ( o == "" ) {
@@ -150,15 +182,16 @@
                 else {
                     b.disabled = false
                 }
-            });
+            };
 
             function backtoparent() {
                 window.open("/funding-assessment/weca/level1-lf/",'_self');
-            }
+            };
+
             function progress() {
-                x = document.getElementById('answerlist').value;
+                x = document.querySelector('input[name="answers"]:checked').value;
                 window.open(x,'_self');
-            }
+            };
             
         </script>
 

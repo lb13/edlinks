@@ -749,6 +749,15 @@
     </item>
     
     <item>
+      <title>Find a traineeship</title>
+      <link>/resource/find-a-traineeship/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/find-a-traineeship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Find an Apprenticeship</title>
       <link>/resource/find-an-apprenticeship/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1136,6 +1145,15 @@
     </item>
     
     <item>
+      <title>Learning aim class codes</title>
+      <link>/resource/learning-aim-class-codes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/learning-aim-class-codes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Learning Aims Reference Service (LARS)</title>
       <link>/resource/learning-aims-reference-service-lars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1339,6 +1357,24 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/resource/qualifications-in-new-funded-offers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recruit an apprentice</title>
+      <link>/resource/recruit-an-apprentice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/recruit-an-apprentice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recruit an apprentice (guidance)</title>
+      <link>/resource/recruit-an-apprentice-guidance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/recruit-an-apprentice-guidance/</guid>
       <description></description>
     </item>
     

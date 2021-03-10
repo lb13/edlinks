@@ -19,5 +19,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Find a traineeship</title>
+      <link>/resource/find-a-traineeship/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/find-a-traineeship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recruit an apprentice</title>
+      <link>/resource/recruit-an-apprentice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/recruit-an-apprentice/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

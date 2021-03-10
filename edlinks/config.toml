@@ -3,7 +3,7 @@ languageCode = "en-gb"
 title = "Education Funding UK"
 
 [params]
-  updatemessage = "new blog post"
+  updatemessage = ""
 
 [outputs]
    home = [ "HTML", "JSON" ]

@@ -58,7 +58,7 @@
 <div class="columns is-mobile m-0 p-0 pb-3">
     <div class="column is-10 is-offset-1 pl-0">
         <p class="has-text-grey is-size-6 is-italic">
-            Last updated 5 March 2021 <span style="color: red">new blog post</span>
+            Last updated 10 March 2021 <span style="color: red"></span>
         </p>
     </div>
 </div>
@@ -160,8 +160,10 @@
         
 
         <script>
-            document.getElementById('answerlist').addEventListener("change",function(){
-                o = document.getElementById('answerlist').value
+
+
+            function checkResponse(choice) {
+                o = choice.value
                 b = document.getElementById("nextbutton")
 
                 if ( o == "" ) {
@@ -170,15 +172,16 @@
                 else {
                     b.disabled = false
                 }
-            });
+            };
 
             function backtoparent() {
                 window.open("/funding-assessment/esfa/level1-lf/24plus/employed/benefits/single-claim/",'_self');
-            }
+            };
+
             function progress() {
-                x = document.getElementById('answerlist').value;
+                x = document.querySelector('input[name="answers"]:checked').value;
                 window.open(x,'_self');
-            }
+            };
             
         </script>
 
