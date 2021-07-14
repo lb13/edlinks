@@ -162,11 +162,19 @@
   </url>
   
   <url>
+    <loc>/tags/abf/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/abf19/</loc>
   </url>
   
   <url>
     <loc>/tags/abf20/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/abf21/</loc>
   </url>
   
   <url>
@@ -183,6 +191,10 @@
   
   <url>
     <loc>/tags/abr20/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/abr21/</loc>
   </url>
   
   <url>
@@ -206,6 +218,10 @@
   </url>
   
   <url>
+    <loc>/resource/adult-education-budget-aeb-funding-rules-2021-to-2022/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/adult-education-budget-aeb-postcode-files/</loc>
   </url>
   
@@ -215,6 +231,10 @@
   
   <url>
     <loc>/resource/adult-education-budget-aeb-funding-rates-and-formula-2020-to-2021/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/adult-education-budget-aeb-funding-rates-and-formula-2021-to-2022/</loc>
   </url>
   
   <url>
@@ -235,6 +255,10 @@
   
   <url>
     <loc>/resource/advanced-learner-loans-funding-rules-2020-to-2021/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/advanced-learner-loans-funding-rules-2021-to-2022/</loc>
   </url>
   
   <url>
@@ -266,11 +290,15 @@
   </url>
   
   <url>
-    <loc>/tags/allocation/</loc>
+    <loc>/tags/all20/</loc>
   </url>
   
   <url>
-    <loc>/tags/allr20/</loc>
+    <loc>/tags/all21/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/allocation/</loc>
   </url>
   
   <url>
@@ -403,6 +431,10 @@
   
   <url>
     <loc>/tags/devolved-authority/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/dfe/</loc>
   </url>
   
   <url>
@@ -2118,6 +2150,10 @@
   </url>
   
   <url>
+    <loc>/resource/get-help-with-the-apprenticeship-service/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/get-information-about-schools/</loc>
   </url>
   
@@ -2402,6 +2438,14 @@
   </url>
   
   <url>
+    <loc>/tags/procurement/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/procurement-at-dfe/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/provider-support-manual-2018-to-2019/</loc>
   </url>
   
@@ -2575,6 +2619,10 @@
   
   <url>
     <loc>/tags/traineeships/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/traineeships-framework-for-delivery/</loc>
   </url>
   
   <url>
