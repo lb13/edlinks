@@ -3,7 +3,7 @@ languageCode = "en-gb"
 title = "Education Funding UK"
 
 [params]
-  updatemessage = ""
+  updatemessage = "updated style and added new home page"
 
 [outputs]
    home = [ "HTML", "JSON" ]

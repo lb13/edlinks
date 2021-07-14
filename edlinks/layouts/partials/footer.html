@@ -1,34 +1,37 @@
-<footer class="section" style="margin-top: 3rem; background-color: #f3f2f1; color: #0b0c0c">
-    <div style="margin-top: 0;" class="columns is-vcentered has-text-centered">
-        <div class="column">
-            <p><strong>Education Funding UK</strong> | a project by your friendly neighbourhood web developer</p>
-            <br><p>This site is not owned or operated by any department or office of the UK government, although it does borrow some styles from the <a href="https://design-system.service.gov.uk">GOV.UK Design System</a>.</p>
-            <br><p>Website content licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
-        </div>
-    </div>
-</footer>
-<footer class="section" style="background-color: #0f0f0f; color: #FAFAFA">
-    
-    <div class="columns is-vcentered has-text-centered">
-        <div class="column">
-            <p><a class="footer-link" href="/site/about/">About the project</a></p>
-        </div>
-        <div class="column">
-            <p><a class="footer-link" href="/site/contact/">Get in touch</a></p>
-        </div>
-    </div>
-    
+<footer class="footer mt-6 pb-6" style="background-color: #3C6E71;">
+  <div class="content has-text-centered has-text-white">
+    <p><strong>Education Funding UK</strong></p>
+    <p>Website content licensed under a <a rel="license" style="color: #FFFFFF" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+    <p><em>Last updated {{ now.Format "2 January 2006" }}</em></p>
+  </div>
 </footer>
 
 <script type="text/javascript" src="/js/main.js"></script>
+
 <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
+  document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Check if there are any navbar burgers
+if ($navbarBurgers.length > 0) {
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+}
+
+});
+</script>

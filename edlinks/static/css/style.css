@@ -11,6 +11,7 @@ h1,h2,h3,h4,h5,h6 {
     color: #0b0c0c;
 }
 
+/*
 a:link {
     color: #1d70b8;
     text-decoration: underline;
@@ -27,6 +28,7 @@ a:visited {
 a:active {
     color: #0b0c0c;
 }
+*/
 
 
 .footer-link:link {

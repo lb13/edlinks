@@ -1,33 +1,64 @@
-<div class="columns is-mobile p-0 m-0 mt-5">
-    
-    <div class="column is-10 is-offset-1 p-0">
-        <div class="columns">
-            <div class="column is-half">
-                <h1 class="title p-0 m-0" style="color: #000000">
-                    Education Funding UK
-                </h1>
-                <p class="subtitle is-size-6 p-0 m-0 mt-1">
-                    Online resources to assist education and training providers.
-                </p>
-            </div>
-            <div class="column is-half has-text-right">
-                <a style="color: #000000; text-decoration: none;" href="/">Home</a> | 
-                <a style="color: #000000; text-decoration: none;" href="/funding-assessment/">Funding Assessment</a> | 
-                <a style="color: #000000; text-decoration: none;" href="/blog/">Blog</a> | 
-                <a style="color: #000000; text-decoration: none;" href="/guidance/">Guidance</a>
+<section class="hero">
+    <div class="hero-body" style="background-color: #284B63;">
+        <div class="container is-fluid">
+      <p class="title has-text-white">
+        Education Funding UK
+      </p>
+      <p class="subtitle has-text-white">
+        Online resources to assist education and training providers.
+      </p>
+    </div>
+    </div>
+  </section>
+
+<nav class="navbar" style="background-color: #D9D9D9" role="navigation" aria-label="main navigation">
+    <div class="container is-fluid">
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item">
+                    Home
+                </a>
+
+                <a href="/funding-assessment/" class="navbar-item">
+                    Funding Assessment Tool
+                </a>
+
+                <a href="/blog/" class="navbar-item">
+                    Blog
+                </a>
+
+                <a href="/guidance/" class="navbar-item">
+                    Guidance
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        More
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a href="/site/about/" class="navbar-item">
+                            About
+                        </a>
+
+                        <a href="/site/contact/" class="navbar-item">
+                            Contact
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item">
+                            Report an issue
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        
     </div>
-    
-</div>
-
-
-
-<div class="columns is-mobile m-0 p-0 pb-3">
-    <div class="column is-10 is-offset-1 pl-0">
-        <p class="has-text-grey is-size-6 is-italic">
-            Last updated {{ now.Format "2 January 2006" }} <span style="color: red">{{ .Site.Params.updatemessage }}</span>
-        </p>
-    </div>
-</div>
+</nav>

@@ -6,10 +6,21 @@
     <description>Recent content in Blog on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 05 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Latest News (July 2021)</title>
+      <link>/blog/202107-news/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/202107-news/</guid>
+      <description>Welp, it&amp;rsquo;s been a while.
+Life has been a tad busy, so I&amp;rsquo;ve not been able to keep on top of this as much as I would have liked to.
+I&amp;rsquo;ve redesigned the appearance a little, hopefully it&amp;rsquo;s easy on the eyes. I&amp;rsquo;ve also adjusted the main page so that it provides quick links to the main funding areas - I might keep working on this depending on how well it works.</description>
+    </item>
     
     <item>
       <title>Latest News (March 2021)</title>

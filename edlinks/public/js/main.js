@@ -32,4 +32,5 @@ function tagToggle() {
     x.style.display = "none";
     y.innerHTML = "&#9654;";
   }
-}
+};
+
