@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+    {{ partial "head.html" . }}
+
+    <body>
+
+        {{ partial "header.html" . }}
+
+        {{ partial "breadcrumbs.html" . }}
+
+        <div class="container is-fluid" style="padding-left: 10%; padding-right: 10%">
+            <div class="content mt-6">
+                <h1 class="is-size-1">
+                    16-19 Programme Funding
+                </h1>
+                <p>
+                    Funding for those aged 16-18 when they begin their studies, or 19-24 with an EHCP.
+                </p>
+            </div>
+
+            <div class="columns my-5">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                          <div class="content">
+                            <h1><a href="https://www.gov.uk/government/publications/advice-funding-regulations-for-post-16-provision">Funding Rules</a></h1>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                          <div class="content">
+                            <h1>
+                                <a href="https://www.gov.uk/government/publications/funding-rates-and-formula">Rates and Formulas</a>
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                          <div class="content">
+                            <h1>
+                                <a href="https://www.gov.uk/government/publications/advice-individualised-learner-record-ilr-returns">ILR Returns Guidance</a>
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                          <div class="content">
+                            <h1>
+                                <a href="https://www.gov.uk/government/publications/funding-guidance-for-young-people-sub-contracting-controls">Subcontracting Controls</a>
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="columns is-mobile m-0">
+            <div class="column is-8 is-offset-2 px-0">
+                <label class="has-text-black">Search by <strong>funding type</strong>, <strong>academic year</strong>, or any other criteria</label>
+        
+                <input id="searchbox" class="input is-size-4" style="border-radius: 0px; border: 2px solid black; margin-top: 10px" type="text" placeholder="" onkeyup="search()">
+            </div>
+        </div>
+
+        {{ partial "taglist.html" . }}
+
+        <div class="columns is-mobile m-0">
+            <div class="column is-10 is-offset-1 p-0">
+                
+                <h2 class="is-size-2 mb-4 mt-5"><strong>All tagged resources</strong></h2>
+                <hr style="margin: 10px 0px 30px 0px; background-color: black">
+        
+                <div class="columns is-multiline m-0">
+        
+                    {{ range .Site.Pages }}
+                    {{ if in .Params.tags "16-19 funding" }}
+                    <div class="column item is-half">
+                        <article class="tile is-child box" style="background-color: #f8f8f8; border-bottom: 3px solid #005ea5; border-radius: 0px;">
+                            
+                            {{ if (isset .Params "link") }}
+                            <p class="is-size-4"><strong><a class="title-link" href="{{.Params.link}}">{{ .Title }}</a></strong></p>
+                            {{ else }}
+                            <p class="is-size-4"><strong><a class="title-link" href="{{.Permalink}}">{{ .Title }}</a></strong></p>
+                            {{ end }}
+                            
+                            <p class="item-abstract">{{ .Description | truncate 200 }}</p>
+                            
+                            <p style="margin-top: 5px"><a href="{{.Permalink}}">More information</a></p>
+            
+                            {{ if (isset .Params "tags") }}
+                            <hr>
+                            <div class="item-taglist">
+                                {{ range .Params.tags }}
+                                <span><a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a></span>&nbsp;
+                                {{ end }}
+                            </div>
+                            {{ else }}
+                            {{ end }}
+            
+                            <p class="searchstring" style="display: none">
+            
+                                {{ .Title }}
+            
+                                {{ with .Description }}
+                                {{ . }}
+                                {{ end }}
+            
+                                {{ with .Params.tags }}
+                                {{ . }}
+                                {{ end }}
+                                
+                            </p>
+            
+                          </article>
+                    </div>
+                    {{ end }}
+                    {{ end }}
+        
+                </div>
+        
+            </div>
+        </div>
+        
+        {{ partial "footer.html" . }}
+    </body>
+</html>
