@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+    {{ partial "head.html" . }}
+
+    <body>
+
+        {{ partial "header.html" . }}
+
+        <div class="container is-fluid" style="padding-left: 10%; padding-right: 10%">
+
+            {{ partial "breadcrumbs.html" . }}
+
+            <div class="content mt-6">
+                <h1 class="is-size-1">
+                    Adult Education Budget
+                </h1>
+                <p>
+                  Qualification-based funding for those aged 19 or older.
+                </p>
+            </div>
+
+            <div class="card has-background-warning">
+                <div class="card-content">
+            <span><i class="fas fa-thumbtack"></i>&nbsp;&nbsp;&nbsp;Pinned resources</span>
+            <div class="columns my-5">
+                <div class="column">
+                    <div class="card has-background-light">
+                        <div class="card-content">
+                          <div class="content">
+                            <h1><a style="color: inherit" href="https://www.gov.uk/guidance/adult-education-budget-aeb-funding-rules-2021-to-2022">Funding Rules</a></h1>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="column">
+                    <div class="card has-background-light">
+                        <div class="card-content">
+                          <div class="content">
+                            <h1>
+                                <a style="color: inherit" href="https://www.gov.uk/government/publications/adult-education-budget-aeb-funding-rates-and-formula-2021-to-2022">Rates and Formulas</a>
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="column">
+                    <div class="card has-background-light">
+                        <div class="card-content">
+                          <div class="content">
+                            <h1>
+                                <a style="color: inherit" href="https://guidance.submit-learner-data.service.gov.uk">ILR Returns Guidance</a>
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="column">
+                    <div class="card has-background-light">
+                        <div class="card-content">
+                          <div class="content">
+                            <h1>
+                                <a style="color: inherit" href="https://www.gov.uk/government/publications/subcontracting-funding-rules-for-esfa-funded-post-16-funding-excluding-apprenticeships">Subcontracting Controls</a>
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            
+            <div class="py-6">
+                <label class="has-text-black">Search all resources tagged with <strong>Adult Education Budget</strong></label>
+            
+                <input id="searchbox" class="input is-size-4" style="border-radius: 0px; border: 2px solid black; margin-top: 10px" type="text" placeholder="" onkeyup="search()">
+            </div>
+
+            <div class="columns is-multiline m-0">
+        
+                {{ range .Site.Pages }}
+                {{ if in .Params.tags "adult education budget" }}
+                <div class="column item is-half">
+                    <article class="tile is-child box" style="background-color: #f8f8f8; border-bottom: 3px solid #005ea5; border-radius: 0px;">
+                        
+                        {{ if (isset .Params "link") }}
+                        <p class="is-size-4"><strong><a class="title-link" href="{{.Params.link}}">{{ .Title }}</a></strong></p>
+                        {{ else }}
+                        <p class="is-size-4"><strong><a class="title-link" href="{{.Permalink}}">{{ .Title }}</a></strong></p>
+                        {{ end }}
+                        
+                        <p class="item-abstract">{{ .Description | truncate 200 }}</p>
+                        
+                        <p style="margin-top: 5px"><a href="{{.Permalink}}">More information</a></p>
+        
+                        {{ if (isset .Params "tags") }}
+                        <hr>
+                        <div class="item-taglist">
+                            {{ range .Params.tags }}
+                            <span><a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a></span>&nbsp;
+                            {{ end }}
+                        </div>
+                        {{ else }}
+                        {{ end }}
+        
+                        <p class="searchstring" style="display: none">
+        
+                            {{ .Title }}
+        
+                            {{ with .Description }}
+                            {{ . }}
+                            {{ end }}
+        
+                            {{ with .Params.tags }}
+                            {{ . }}
+                            {{ end }}
+                            
+                        </p>
+        
+                      </article>
+                </div>
+                {{ end }}
+                {{ end }}
+    
+            </div>
+            
+        </div><!-- End of Container -->
+        
+        {{ partial "footer.html" . }}
+    </body>
+</html>

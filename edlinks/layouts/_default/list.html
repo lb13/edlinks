@@ -7,13 +7,19 @@
 
         {{ partial "header.html" . }}
 
-        {{ partial "breadcrumbs.html" . }}
+        <div class="container is-fluid" style="padding-left: 10%; padding-right: 10%">
+            {{ partial "breadcrumbs.html" . }}
 
-        {{ partial "searchbar.html" . }}
+            <div class="content mt-6">
+                <h1 class="is-size-1">
+                    {{ .Title }}
+                </h1>
+            </div>
 
-        {{ partial "taglist.html" . }}
-
-        {{ partial "list.html" . }}
+            {{ partial "searchbar.html" . }}
+            {{ partial "taglist.html" . }}
+            {{ partial "list.html" . }}
+        </div>
         
         {{ partial "footer.html" . }}
     </body>
