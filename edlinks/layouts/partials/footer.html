@@ -1,8 +1,14 @@
 <footer class="footer mt-6 pb-6" style="background-color: #3C6E71;">
   <div class="content has-text-centered has-text-white">
     <p><strong>Education Funding UK</strong></p>
+
     <p>Website content licensed under a <a rel="license" style="color: #FFFFFF" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
-    <p><em>Last updated {{ now.Format "2 January 2006" }}</em></p>
+
+    {{ $myVar := now.Format "January" }}
+    {{ $lowVar := lower $myVar }}
+
+    <p><em>Last updated <a style="color: inherit" href="https://www.timeanddate.com/on-this-day/{{ $lowVar }}/{{ now.Format "2" }}">{{ now.Format "2 January 2006" }}</a></em></p>
+
   </div>
 </footer>
 
