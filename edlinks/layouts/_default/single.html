@@ -6,39 +6,37 @@
     <body>
         {{ partial "header.html" . }}
 
-        {{ partial  "breadcrumbs.html" . }}
-    
-            <div style="background-color: #FFFFFF;" class="content columns is-mobile m-0">
-                
-                <div class="column is-10 is-offset-1">
+        <div class="container is-fluid" style="padding-left: 10%; padding-right: 10%">
 
-                    <h1 class="title is-1">
-                        {{ .Title }}
-                    </h1>
+            {{ partial "breadcrumbs.html" . }}
 
-                    {{ if ( isset .Params "description" ) }}
-                    <p class="has-text-black">{{ .Description }}</p>
-                    {{ end }}
-
-                    <div class="item-taglist">
-                        {{ range .Params.tags }}
-                        <span><a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a></span>&nbsp;
-                        {{ end }}
-                    </div>
-
-                    <p class="is-5 pt-4">
-                        <a href="{{ .Params.link }}">{{ .Params.link }}</a>
-                    </p>
-
-                    {{ if ( isset .Params "link" ) }}
-                    <a href="/site/contact/" class="mt-0 mb-5 button" style="background-color: #d4351c; color: #FFFFFF; text-decoration: none; border: none; border-radius: 0px; -webkit-box-shadow: 0 2px 0 #55150b; box-shadow: 0 2px 0 #55150b;" tabindex="0">Report Broken Link</a>
-                    {{ end }}
-
-                    {{ .Content }}
-
-                </div>
-            
+            <div class="content mt-6">
+                <h1 class="is-size-1">
+                    {{ .Title }}
+                </h1>
             </div>
+
+            {{ if ( isset .Params "description" ) }}
+            <p class="has-text-black">{{ .Description }}</p>
+            {{ end }}
+
+            <div class="item-taglist">
+                {{ range .Params.tags }}
+                <span><a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a></span>&nbsp;
+                {{ end }}
+            </div>
+
+            <p class="is-5 pt-4">
+                <a href="{{ .Params.link }}">{{ .Params.link }}</a>
+            </p>
+
+            {{ if ( isset .Params "link" ) }}
+            <a href="/site/contact/" class="mt-0 mb-5 button" style="background-color: #d4351c; color: #FFFFFF; text-decoration: none; border: none; border-radius: 0px; -webkit-box-shadow: 0 2px 0 #55150b; box-shadow: 0 2px 0 #55150b;" tabindex="0">Report Broken Link</a>
+            {{ end }}
+
+            {{ .Content }}
+
+        </div>
 
 
         {{ partial "footer.html" . }}
