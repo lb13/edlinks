@@ -6,27 +6,21 @@
     <body>
         {{ partial "header.html" . }}
 
-        {{ partial  "breadcrumbs.html" . }}
-    
-            <div style="background-color: #FFFFFF;" class="content columns is-mobile m-0">
-                
-                <div class="column is-10 is-offset-1">
+        <div class="container is-fluid" style="padding-left: 10%; padding-right: 10%">
 
-                    <div style="background-color: #E0DFED; border-top: 5px solid #040070; border-bottom: 5px solid #040070; padding: 0px 10px">
-                        <h1 class="title is-1 pt-0 mt-0">
-                            {{ .Title }}
-                        </h1>
-    
-                        <p class="has-text-black">{{ .Date.Format "Monday, 2 January 2006" }}</p>
-                    </div>
+            {{ partial "breadcrumbs.html" . }}
 
-                    <div class="has-text-black" style="margin-top: 20px">
-                        {{ .Content }}
-                    </div>
-
-                </div>
+            <div class="content mt-6">
+                <h1 class="is-size-1">
+                    {{ .Title }}
+                </h1>
+                <p class="">{{ .Date.Format "Monday, 2 January 2006" }}</p>
+                <hr>
             
+                {{ .Content }}
             </div>
+            
+        </div>
 
 
         {{ partial "footer.html" . }}

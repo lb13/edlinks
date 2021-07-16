@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/guidance/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/guidance/how-does-apprenticeship-funding-work/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
     <lastmod>2021-07-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -20,11 +30,6 @@
   <url>
     <loc>/blog/202103-news/</loc>
     <lastmod>2021-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/guidance/</loc>
-    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
