@@ -31,6 +31,8 @@ Next, the ESFA will take the remaining 80% of the capped TNP (80% of £12,000 is
 
 Our example apprenticeship runs for **12 months**, so we'll do £9,600 divided by 12, which gives us a monthly on programme payment of **£800**.
 
+<img alt="illustration of apprenticeship funding breakdown" src="/img/apprenticeship-funding-example.png">
+
 ## Who pays?
 The last question is: who pays?
 
