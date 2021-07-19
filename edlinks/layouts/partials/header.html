@@ -11,17 +11,17 @@
     </div>
   </section>
 
-<nav class="navbar is-light" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
     <div class="container">
         <div class="navbar-brand">
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarTwo">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
             </a>
         </div>
 
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarTwo" class="navbar-menu">
             <div class="navbar-start">
                 <a href="/" class="navbar-item">
                     Home
@@ -41,6 +41,7 @@
                             <i class="far has-text-link fa-dot-circle"></i>&nbsp;&nbsp;&nbsp;16-19 Programme Funding
                         </a>
 
+
                         <a href="/adult-education-budget/" class="navbar-item">
                             <i class="far has-text-link fa-dot-circle"></i>&nbsp;&nbsp;&nbsp;Adult Education Budget
                         </a>
@@ -49,9 +50,18 @@
                             <i class="far has-text-link fa-dot-circle"></i>&nbsp;&nbsp;&nbsp;Apprenticeships
                         </a>
 
+                        <a href="/tags/higher-education/" class="navbar-item">
+                            <i class="far has-text-link fa-dot-circle"></i>&nbsp;&nbsp;&nbsp;Higher Education
+                        </a>
+
+                        <a href="/tags/t-levels/" class="navbar-item">
+                            <i class="far has-text-link fa-dot-circle"></i>&nbsp;&nbsp;&nbsp;T Levels
+                        </a>
+
                         <a href="/tags/traineeships/" class="navbar-item">
                             <i class="far has-text-link fa-dot-circle"></i>&nbsp;&nbsp;&nbsp;Traineeships
                         </a>
+
                     </div>
                 </div>
 
@@ -120,13 +130,7 @@
                     </div>
                 </div>
 
-                <a href="/funding-assessment/" class="navbar-item">
-                    Funding Assessment Tool
-                </a>
-
-                <a href="/blog/" class="navbar-item">
-                    Blog
-                </a>
+                
 
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">
@@ -136,6 +140,10 @@
                     <div class="navbar-dropdown">
                         <a href="/guidance/" class="navbar-item">
                             <i class="far has-text-link fa-dot-circle"></i>&nbsp;&nbsp;&nbsp;Guidance Articles
+                        </a>
+
+                        <a href="/funding-assessment/" class="navbar-item">
+                            <i class="far has-text-link fa-dot-circle"></i>&nbsp;&nbsp;&nbsp;Funding Assessment Tool
                         </a>
 
                         <a href="https://esfahelp.education.gov.uk/hc/en-gb/categories/360002506639-Articles" class="navbar-item">
@@ -167,6 +175,10 @@
                             <i class="far has-text-link fa-dot-circle"></i>&nbsp;&nbsp;&nbsp;About
                         </a>
 
+                        <a href="/blog/" class="navbar-item">
+                            <i class="far has-text-link fa-dot-circle"></i>&nbsp;&nbsp;&nbsp;Blog
+                        </a>
+
                         <a href="/site/contact/" class="navbar-item">
                             <i class="far has-text-link fa-dot-circle"></i>&nbsp;&nbsp;&nbsp;Contact
                         </a>
@@ -182,7 +194,51 @@
                         </a>
                     </div>
                 </div>
-            </div>
+
+                
+            </div><!-- End of Navbar Start -->
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    
+                    <input class="navbar-item input"  type="text" autocomplete="off" placeholder="Type to search" id="navbarsearchbox" onkeyup="navbarsearch()">
+                  
+                </div>
+                
+                
+            </div><!-- End of Navbar End -->
+            
+        </div><!-- End of Navbar Menu -->
+        
+    </div><!-- End of Container -->
+    
+</nav>
+
+
+
+<div id="navbarresults" style="background-color: #2b2828; padding: 10px; display: none; max-height: 300px; overflow-y: scroll">
+    {{ range where .Site.Pages "Section" "resource" }}
+    <div class="card navbaritem" style="display: none; margin: 5px">
+        <div class="card-content">
+            <p class="is-size-5">
+                <strong>
+                    {{ if (isset .Params "link") }}
+                    <a class="title-link" href="{{.Params.link}}">{{ .Title }}</a>
+                    {{ else }}
+                    <a class="title-link" href="{{.Permalink}}">{{ .Title }}</a>
+                    {{ end }}
+                </strong>
+            </p>
+            <p class="navbarsearchstring" style="display: none">
+                    
+                {{ .Title }}
+
+                {{ with .Params.tags }}
+                {{ . }}
+                {{ end }}
+                
+            </p>
         </div>
     </div>
-</nav>
+    {{ end }}
+</div>

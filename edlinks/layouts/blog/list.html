@@ -7,10 +7,18 @@
 
         {{ partial "header.html" . }}
 
-        {{ partial "breadcrumbs.html" . }}
+        <div class="container is-fluid" style="padding-left: 10%; padding-right: 10%">
+            {{ partial "breadcrumbs.html" . }}
 
-        {{ partial "bloglist.html" . }}
-        
+            <div class="content mt-6">
+                <h1 class="is-size-1">
+                    Blog posts
+                </h1>
+            </div>
+
+            {{ partial "bloglist.html" . }}
+        </div>
+
         {{ partial "footer.html" . }}
     </body>
 </html>
