@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cdf on Education Funding UK</title>
+    <link>/tags/cdf/</link>
+    <description>Recent content in cdf on Education Funding UK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="/tags/cdf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Industry placements</title>
+      <link>/resource/industry-placements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/industry-placements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Industry placements: capacity and delivery fund (CDF) for providers delivering in the 2021 to 2022 academic year</title>
+      <link>/resource/industry-placements-capacity-and-delivery-fund-cdf-for-providers-delivering-in-the-2021-to-2022-academic-year/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/industry-placements-capacity-and-delivery-fund-cdf-for-providers-delivering-in-the-2021-to-2022-academic-year/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Industry placements: policy framework</title>
+      <link>/resource/industry-placements-policy-framework/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resource/industry-placements-policy-framework/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

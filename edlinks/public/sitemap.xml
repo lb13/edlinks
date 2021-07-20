@@ -175,6 +175,10 @@
   </url>
   
   <url>
+    <loc>/tags/2023-to-2024/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/aat/</loc>
   </url>
   
@@ -396,6 +400,10 @@
   
   <url>
     <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/cdf/</loc>
   </url>
   
   <url>
@@ -2279,11 +2287,19 @@
   </url>
   
   <url>
+    <loc>/resource/how-t-levels-are-funded/</loc>
+  </url>
+  
+  <url>
     <loc>/resource/how-t-levels-will-be-funded-in-academic-year-2020-to-2021/</loc>
   </url>
   
   <url>
     <loc>/resource/how-the-esfa-measures-the-performance-of-fe-providers-it-funds/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/how-to-register-to-deliver-t-levels-in-2023-to-2024-academic-year/</loc>
   </url>
   
   <url>
@@ -2311,6 +2327,10 @@
   </url>
   
   <url>
+    <loc>/resource/industry-placements/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/industry-placements/</loc>
   </url>
   
@@ -2320,6 +2340,14 @@
   
   <url>
     <loc>/resource/industry-placements-capacity-and-delivery-fund-cdf-for-providers-delivering-in-2020-to-2021-academic-year/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/industry-placements-capacity-and-delivery-fund-cdf-for-providers-delivering-in-the-2021-to-2022-academic-year/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/industry-placements-policy-framework/</loc>
   </url>
   
   <url>
@@ -2615,11 +2643,27 @@
   </url>
   
   <url>
+    <loc>/resource/t-level-action-plan/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/t-level-funding/</loc>
   </url>
   
   <url>
     <loc>/resource/t-level-industry-placements-delivery-guidance/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/t-level-transition/</loc>
+  </url>
+  
+  <url>
+    <loc>/resource/t-level-transition-programme-framework-for-delivery-2020-to-2021/</loc>
+  </url>
+  
+  <url>
+    <loc>/t-levels/</loc>
   </url>
   
   <url>
