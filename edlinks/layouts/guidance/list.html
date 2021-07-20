@@ -7,11 +7,18 @@
 
         {{ partial "header.html" . }}
 
-        {{ partial "breadcrumbs.html" . }}
+        <div class="container is-fluid" style="padding-left: 10%; padding-right: 10%">
+            {{ partial "breadcrumbs.html" . }}
 
+            <div class="content mt-6">
+                <h1 class="is-size-1">
+                    Guidance articles
+                </h1>
+            </div>
         {{ partial "searchbar.html" . }}
 
         {{ partial "guidancelist.html" . }}
+        </div>
         
         {{ partial "footer.html" . }}
     </body>

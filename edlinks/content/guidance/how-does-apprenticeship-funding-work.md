@@ -1,6 +1,7 @@
 ---
 Title: How Does Apprenticeship Funding Work?
 Date: 2021-07-16
+Description: How does apprenticeship funding work?
 ---
 
 Oh boy, apprenticeship funding is confusing.
