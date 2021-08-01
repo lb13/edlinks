@@ -53,25 +53,25 @@
             <div onclick="closereport()" class="modal-background"></div>
             <div class="modal-card">
               <header class="modal-card-head">
-                <p class="modal-card-title">Modal title</p>
+                <p class="modal-card-title">Report error</p>
                 <button onclick="closereport()" class="delete" aria-label="close"></button>
               </header>
               <section class="modal-card-body">
 
-                <form class="form" name="contact" method="POST" data-netlify="true">
+                <form class="form" name="report" method="POST" data-netlify="true">
 
                 <div class="field">
                     <label class="label">Name</label>
                     <div class="control">
-                      <input required class="input" type="text" placeholder="Text input">
+                      <input name="name" required class="input" type="text" placeholder="Your name">
                     </div>
                   </div>
                   
                                    
                   <div class="field">
-                    <label class="label">Email</label>
+                    <label class="label">Email (optional)</label>
                     <div class="control has-icons-left has-icons-right">
-                      <input required class="input" type="email" placeholder="Email input" value="">
+                      <input name="email" class="input" type="email" placeholder="Your email" value="">
                       <span class="icon is-small is-left">
                         <i class="fas fa-envelope"></i>
                       </span>
@@ -81,14 +81,14 @@
                   <div class="field">
                     <label class="label">Subject</label>
                     <div class="control">
-                      <input readonly class="input has-background-light" type="text" value="Error report: {{ .Title }}">
+                      <input name="subject" readonly class="input has-background-light" type="text" value="Error report: {{ .Title }}">
                     </div>
                   </div>
                   
                   <div class="field">
                     <label class="label">Message</label>
                     <div class="control">
-                      <textarea required class="textarea" placeholder="There's something wrong with the {{ .Title }} page..."></textarea>
+                      <textarea name="message" required class="textarea" placeholder="Your message"></textarea>
                     </div>
                   </div>
                   

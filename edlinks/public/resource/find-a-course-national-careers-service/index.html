@@ -4241,6 +4241,12 @@
     
 </div>
 
+<div style="background-color: yellow; padding: 2px 10px 2px 10px">
+    <p>
+        Note: our contact form is now working, but has been offline for the last week - if you have sent us any messages prior to 9pm on 1st August, please resend them.
+    </p>
+</div>
+
         <div class="container is-fluid" style="padding-left: 10%; padding-right: 10%">
 
             <div class="nav navbar-nav my-5">
@@ -4371,25 +4377,25 @@ if ($navbarBurgers.length > 0) {
             <div onclick="closereport()" class="modal-background"></div>
             <div class="modal-card">
               <header class="modal-card-head">
-                <p class="modal-card-title">Modal title</p>
+                <p class="modal-card-title">Report error</p>
                 <button onclick="closereport()" class="delete" aria-label="close"></button>
               </header>
               <section class="modal-card-body">
 
-                <form class="form" name="contact" method="POST" data-netlify="true">
+                <form class="form" name="report" method="POST" data-netlify="true">
 
                 <div class="field">
                     <label class="label">Name</label>
                     <div class="control">
-                      <input required class="input" type="text" placeholder="Text input">
+                      <input name="name" required class="input" type="text" placeholder="Your name">
                     </div>
                   </div>
                   
                                    
                   <div class="field">
-                    <label class="label">Email</label>
+                    <label class="label">Email (optional)</label>
                     <div class="control has-icons-left has-icons-right">
-                      <input required class="input" type="email" placeholder="Email input" value="">
+                      <input name="email" class="input" type="email" placeholder="Your email" value="">
                       <span class="icon is-small is-left">
                         <i class="fas fa-envelope"></i>
                       </span>
@@ -4399,14 +4405,14 @@ if ($navbarBurgers.length > 0) {
                   <div class="field">
                     <label class="label">Subject</label>
                     <div class="control">
-                      <input readonly class="input has-background-light" type="text" value="Error report: Find a course (National Careers Service)">
+                      <input name="subject" readonly class="input has-background-light" type="text" value="Error report: Find a course (National Careers Service)">
                     </div>
                   </div>
                   
                   <div class="field">
                     <label class="label">Message</label>
                     <div class="control">
-                      <textarea required class="textarea" placeholder="There's something wrong with the Find a course (National Careers Service) page..."></textarea>
+                      <textarea name="message" required class="textarea" placeholder="Your message"></textarea>
                     </div>
                   </div>
                   
