@@ -1,6 +1,6 @@
 ---
 Title: Funding Assessment
-Subtitle: High Value Qualifications
+Subtitle: High Value Qualification
 
 Question: How old is the learner?
 

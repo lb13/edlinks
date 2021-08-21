@@ -12,3 +12,5 @@ Answers:
 - Name: High Value Qualifications
   Link: hvq
 ---
+
+<em>If a qualification belongs to more than one category, try each category, starting with whichever comes first in the list.</em>

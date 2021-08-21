@@ -4303,12 +4303,50 @@
 
             
 
-                <p class="is-size-3 mb-2"></p>
+                <p class="is-size-3 mb-2">Has the learner already achieved a full level 3 qualification?</p>
                 
-                <div class="py-3"><div class="notification is-light is-danger">
-  The learner is not eligible for <strong>any funding</strong> as they are aged between 26 and 49.
-</div></div>
+                <div class="py-3"></div>
 
+                
+                <style>
+                    .radio {
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
+
+                        border-radius: 50%;
+                        width: 30px;
+                        height: 30px;
+
+                        border: 2px solid #999;
+                        transition: 0.2s all linear;
+                        margin-right: 10px;
+
+                        position: relative;
+                        top: 8px;
+                    }
+
+                    .radio:checked {
+                        background: black;
+                        border: 5px solid #ffdd00;
+                        
+                    }
+
+                    .radiolabel {
+                        line-height: 32px;
+                        display: block;
+                        line-height: 2;
+                    }
+                </style>
+
+                
+                <label class="radiolabel">
+                <input class="radio" type="radio" name="answers" onchange="checkResponse(this)" value="achieved-full-level3">Yes</label>
+                
+                <label class="radiolabel">
+                <input class="radio" type="radio" name="answers" onchange="checkResponse(this)" value="no-full-level3">No</label>
+                
+                
                 
 
                 <div class="buttons has-addons mt-3">

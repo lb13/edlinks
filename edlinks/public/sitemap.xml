@@ -3172,11 +3172,11 @@
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3/hvq/1925/level3-available/</loc>
+    <loc>/funding-assessment/weca/level3/hvq/1925/fl3/</loc>
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3/hvq/1925/level3-spent/</loc>
+    <loc>/funding-assessment/weca/level3/hvq/1925/not-fl3/</loc>
   </url>
   
   <url>
@@ -3188,11 +3188,11 @@
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3/hvq/50plus/level3-available/</loc>
+    <loc>/funding-assessment/weca/level3/hvq/50plus/fl3/</loc>
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3/hvq/50plus/level3-spent/</loc>
+    <loc>/funding-assessment/weca/level3/hvq/50plus/not-fl3/</loc>
   </url>
   
   <url>
@@ -3200,15 +3200,35 @@
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3/le/1925/</loc>
+    <loc>/funding-assessment/weca/level3/le/1923/</loc>
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3/le/1925/level3-available/</loc>
+    <loc>/funding-assessment/weca/level3/le/1923/achieved-full-level3/</loc>
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3/le/1925/level3-spent/</loc>
+    <loc>/funding-assessment/weca/level3/le/1923/achieved-full-level3/fl3/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3/le/1923/achieved-full-level3/not-fl3/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3/le/1923/no-full-level3/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3/le/2425/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3/le/2425/fl3/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3/le/2425/not-fl3/</loc>
   </url>
   
   <url>
@@ -3220,11 +3240,11 @@
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3/le/50plus/level3-available/</loc>
+    <loc>/funding-assessment/weca/level3/le/50plus/fl3/</loc>
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3/le/50plus/level3-spent/</loc>
+    <loc>/funding-assessment/weca/level3/le/50plus/not-fl3/</loc>
   </url>
   
   <url>
@@ -3236,11 +3256,19 @@
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3/nsf/1925/level3-available/</loc>
+    <loc>/funding-assessment/weca/level3/nsf/1925/achieved-full-level3/</loc>
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3/nsf/1925/level3-spent/</loc>
+    <loc>/funding-assessment/weca/level3/nsf/1925/achieved-full-level3/fl3/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3/nsf/1925/achieved-full-level3/not-fl3/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3/nsf/1925/no-full-level3/</loc>
   </url>
   
   <url>
@@ -3248,15 +3276,39 @@
   </url>
   
   <url>
+    <loc>/funding-assessment/weca/level3/nsf/2649/achieved-full-level3/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3/nsf/2649/achieved-full-level3/fl3/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3/nsf/2649/achieved-full-level3/not-fl3/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3/nsf/2649/no-full-level3/</loc>
+  </url>
+  
+  <url>
     <loc>/funding-assessment/weca/level3/nsf/50plus/</loc>
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3/nsf/50plus/level3-available/</loc>
+    <loc>/funding-assessment/weca/level3/nsf/50plus/achieved-full-level3/</loc>
   </url>
   
   <url>
-    <loc>/funding-assessment/weca/level3/nsf/50plus/level3-spent/</loc>
+    <loc>/funding-assessment/weca/level3/nsf/50plus/achieved-full-level3/fl3/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3/nsf/50plus/achieved-full-level3/not-fl3/</loc>
+  </url>
+  
+  <url>
+    <loc>/funding-assessment/weca/level3/nsf/50plus/no-full-level3/</loc>
   </url>
   
   <url>

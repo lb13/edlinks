@@ -1,8 +1,12 @@
 ---
 Title: Funding Assessment
 Subtitle: Aged 26-49
----
 
-<div class="notification is-light is-danger">
-  The learner is not eligible for <strong>any funding</strong> as they are aged between 26 and 49.
-</div>
+Question: Has the learner already achieved a full level 3 qualification?
+
+Answers:
+- Name: "Yes"
+  Link: "achieved-full-level3"
+- Name: "No"
+  Link: "no-full-level3"
+---

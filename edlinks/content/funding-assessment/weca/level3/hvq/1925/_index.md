@@ -2,13 +2,13 @@
 Title: Funding Assessment
 Subtitle: Aged 19-25
 
-Question: How many full level 3 qualifications has the learner achieved?
+Question: Is 'Full Level 3' the highest level of achievement for this learner?
 
 Answers:
-- Name: "Zero or none"
-  Link: "level3-available"
-- Name: "Two or more"
-  Link: "level3-spent"
+- Name: "Yes, their highest level of achievement is 'Full Level 3'"
+  Link: "fl3"
+- Name: "No, their highest level of achievement is lower or higher than 'Full Level 3'"
+  Link: "not-fl3"
 ---
 
 <div class="notification is-info is-light">
