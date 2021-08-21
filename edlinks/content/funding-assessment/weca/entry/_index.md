@@ -2,11 +2,15 @@
 Title: Funding Assessment
 Subtitle: Entry Level
 
-Question: What is the learner's employment status?
+Question: What category is the qualification?
 
 Answers:
-- Name: "Employed / Self-Employed"
-  Link: "employed"
-- Name: "Unemployed"
-  Link: "unemployed"
+- Name: "Functional Skills English or Maths"
+  Link: "em"
+- Name: ESOL
+  Link: esol
+- Name: Essential Digital Skills
+  Link: eds
+- Name: Local Flexibility
+  Link: lf
 ---
