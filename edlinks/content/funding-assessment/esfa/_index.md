@@ -40,3 +40,5 @@ Answers:
 <div class="notification is-info is-light">
 All regulated qualifications in the UK can be classified by level, and will also fall into different funding categories.<br><br>You can check the funding availability and categories of a qualification by searching for it using <a href="https://findalearningaimbeta.fasst.org.uk">Find A Learning Aim</a>.
 </div>
+
+{{< qualcats >}}

@@ -4286,7 +4286,489 @@
                 
                 <div class="py-3"><div class="notification is-info is-light">
 All regulated qualifications in the UK can be classified by level, and will also fall into different funding categories.<br><br>You can check the funding availability and categories of a qualification by searching for it using <a href="https://findalearningaimbeta.fasst.org.uk">Find A Learning Aim</a>.
-</div></div>
+</div>
+<div class="card">
+    <div class="card-content">
+    <p class="mb-4"><em>If a qualification belongs to more than one category, try each category, starting with whichever comes first in the list.</em></p>
+    <div class="field mb-5">
+      <p class="control has-icons-left">
+        <input name="aimref" style="max-width: 200px;" placeholder="e.g. 60173415" class="input" id="aimref" type="text">
+        <button title="View qualification in list of ESFA approved qualifications" class="ml-3 button is-info" onclick="qualSearch()">Check funding categories</button>
+        <button title="View qualification in the Find a Learning Aim service" class="ml-3 button" onclick="falaSearch()">Detailed information</button>
+        <button title="Check whether a learning aim appears in the high value list" class="ml-3 button is-dark" onclick="highvalueSearch()">High Value search</button>
+        <span class="icon is-small is-left">
+          <i class="fas fa-search"></i>
+        </span>
+      </p>
+    </div>
+    
+    <div id="hvqList" class="card has-background-dark has-text-white p-3" style="display: none">
+    <p><strong>High Value Qualifications:</strong></p>
+    <p style="display: none" class="hvq">60317036 - AIM Qualifications Level 2 Diploma in Skills for Working in Construction and Building Industries&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60317024 - AIM Qualifications Level 2 Extended Certificate in Skills for Working in Construction and Building Industries&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60080486 - City & Guilds Level 2 Diploma In Bench Joinery&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60079137 - City & Guilds Level 2 Diploma In Bricklaying&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60054980 - City & Guilds Level 2 Diploma in Electrical Installations (Buildings and Structures) &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60080498 - City & Guilds Level 2 Diploma In Maintenance Operations (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60085848 - City & Guilds Level 2 Diploma In Painting and Decorating &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60080516 - City & Guilds Level 2 Diploma In Plastering &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60055005 - City & Guilds Level 2 Diploma In Plumbing Studies &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60060360 - City & Guilds Level 2 Diploma In Refrigeration, Air Conditioning and Heat Pump Systems &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60311885 - City & Guilds Level 2 Diploma in Refrigeration, Air-Conditioning and Heat Pump Systems&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60080474 - City & Guilds Level 2 Diploma In Site Carpentry &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60331513 - City & Guilds Level 2 NVQ Certificate in Interior Systems (Construction) &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60124684 - City & Guilds Level 2 NVQ Diploma In Building Maintenance Multi-trade Repair and Refurbishment Operations (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60336572 - City & Guilds Level 2 NVQ Diploma in Construction and Civil Engineering Operations (Construction) &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60078649 - City & Guilds Level 2 NVQ Diploma in Decorative Finishing and Industrial Painting Occupations (Construction) &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60331525 - City & Guilds Level 2 NVQ Diploma in Interior Systems (Construction) &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60330806 - City & Guilds Level 2 NVQ Diploma in Plastering (Construction) &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60333972 - City & Guilds Level 2 NVQ Diploma in Roofing Occupations (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60078571 - City & Guilds Level 2 NVQ Diploma In Trowel Occupations (Construction) &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60158438 - City & Guilds Level 2 NVQ Diploma in Wood Occupations (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60303542 - City & Guilds Level 2 Technical Certificate in Architectural Joinery&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6030313X - City & Guilds Level 2 Technical Certificate in Bricklaying&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60302288 - City & Guilds Level 2 Technical Certificate in Electrical Installation&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60303645 - City & Guilds Level 2 Technical Certificate in Painting and Decorating&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60303190 - City & Guilds Level 2 Technical Certificate in Plastering&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60302847 - City & Guilds Level 2 Technical Certificate in Plumbing&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60303529 - City & Guilds Level 2 Technical Certificate in Site Carpentry&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60068917 - EAL Level 2 Certificate in Plumbing and Heating&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60067263 - EAL Level 2 Diploma in Plumbing and Heating&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60145626 - EAL Level 2 Intermediate Diploma in Plumbing&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60339196 - NOCN_Cskills Awards Level 2 Certificate in Construction Multi-skills&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60355517 - NOCN_Cskills Awards Level 2 Diploma in Dry Lining (Housing)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60087791 - NOCN_Cskills Awards Level 2 Diploma in Fitted Interiors (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60326323 - OCN NI Level 2 Certificate in Construction&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60326347 - OCN NI Level 2 Diploma in Construction&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60326335 - OCN NI Level 2 Extended Certificate in Construction&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60356455 - Open College Network West Midlands Level 2 NVQ Diploma in Plastering&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60356480 - Open College Network West Midlands Level 2 NVQ Diploma in Wood Occupations (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60342250 - Pearson Edexcel Level 2 NVQ Certificate in Construction and Civil Engineering Operations (Construction)  &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60343266 - Pearson Edexcel Level 2 NVQ Certificate in Interior Systems (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60343667 - Pearson Edexcel Level 2 NVQ Diploma in Accessing Operations and Rigging&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6032837X - Pearson Edexcel Level 2 NVQ Diploma in Building Maintenance Multi-trade Repair and Refurbishment Operations (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60342262 - Pearson Edexcel Level 2 NVQ Diploma in Construction and Civil Engineering Operations (Construction)  &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60328411 - Pearson Edexcel Level 2 NVQ Diploma in Controlling Lifting Operations - Slinger/Signaller (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60365651 - Pearson Edexcel Level 2 NVQ Diploma in Decorative Finishing and Industrial Painting Occupations (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60091009 - Pearson Edexcel Level 2 NVQ Diploma in Decorative Finishing and Painting Occupations - Painter (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60328435 - Pearson Edexcel Level 2 NVQ Diploma in Demolition (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60343278 - Pearson Edexcel Level 2 NVQ Diploma in Interior Systems (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60160196 - Pearson Edexcel Level 2 NVQ Diploma in Plant Operations (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60364658 - Pearson Edexcel Level 2 NVQ Diploma in Plastering (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60328368 - Pearson Edexcel Level 2 NVQ Diploma in Roofing Occupations (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60090960 - Pearson Edexcel Level 2 NVQ Diploma in Trowel Occupations (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6036466X - Pearson Edexcel Level 2 NVQ Diploma in Trowel Occupations (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60361840 - Pearson Level 2 NVQ Diploma in Wood Occupations (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60330697 - ProQual Level 2 NVQ Certificate in Wood Occupations (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60090431 - ProQual Level 2 NVQ Diploma in Controlling Lifting Operations - Slinger/Signaller (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60325914 - SQA Level 2 Diploma In Thermal Insulation&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60331719 - SQA Level 2 NVQ Certificate in Wall and Floor Tiling &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60111999 - TLM Level 2 Certificate in Designing, Engineering, and Constructing a Sustainable Built Environment &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60319926 - TQUK Level 2 Certificate in Design, Engineer, Construct! The Digital Built Environment (RQF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60093535 - BPEC Level 3 Diploma In Plumbing Foundation &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60174195 - City & Guilds Level 3 Advanced Technical Diploma in Architectural Joinery (450)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60172368 - City & Guilds Level 3 Advanced Technical Diploma in Bricklaying (450)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60173075 - City & Guilds Level 3 Advanced Technical Diploma in Electrical Installation (450)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60174201 - City & Guilds Level 3 Advanced Technical Diploma in Painting and Decorating (450)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60174171 - City & Guilds Level 3 Advanced Technical Diploma in Plastering (450)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60172010 - City & Guilds Level 3 Advanced Technical Diploma in Plumbing (450)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60174183 - City & Guilds Level 3 Advanced Technical Diploma in Site Carpentry (450)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60080838 - City & Guilds Level 3 Diploma In Bricklaying&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60311903 - City & Guilds Level 3 Diploma in Refrigeration, Air-Conditioning and Heat Pump Systems&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60324880 - City & Guilds Level 3 Heating and Ventilating Craftsperson Qualification (Industrial and Commercial&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60112359 - City & Guilds Level 3 NVQ Diploma in Decorative Finishing - Painting and Decorating (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60145675 - EAL Level 3 Advanced Diploma in Plumbing&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60327388 - Gateway Qualifications Level 3 Diploma in the Built Environment with Building Information Modelling &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60069867 - GQA Level 3 NVQ Diploma In Decorative Finishing - Painting and Decorating &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60352048 - GQA Level 3 NVQ Diploma in Occupational Work Supervision (Construction) &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60332402 - GQA Level 3 NVQ Diploma in Wall and Floor Tiling (Construction)  &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60333005 - OCN NI level 3 Certificate in Building Information Modelling&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60343436 - OCN NI Level 3 Certificate in Digital Construction with Building Information Modelling (BIM)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6034345X - OCN NI Level 3 Diploma in Digital Construction with Building Information Modelling (BIM) &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60306129 - Open College Network West Midlands Level 3 Certificate in Bathroom Installation Skills&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60306130 - Open College Network West Midlands Level 3 Certificate in Building, Installation and Property Maintenance Skills &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60306154 - Open College Network West Midlands Level 3 Certificate in Kitchen Installation Skills&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60308321 - Open College Network West Midlands Level 3 Certificate in Property Development&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60347053 - Open College Network West Midlands Level 3 Diploma in Building, Installation and Property Maintenance Skills&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60356522 - Open College Network West Midlands Level 3 NVQ Diploma in Occupational Work Supervision&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6030862X - Pearson BTEC Level 3 National Extended Certificate in Construction and the Built Environment&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60308631 - Pearson BTEC Level 3 National Foundation Diploma in Construction and the Built Environment&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60343679 - Pearson Edexcel Level 3 NVQ Diploma in Accessing Operations and Rigging&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60345135 - Pearson Edexcel Level 3 NVQ Diploma in Occupational Work Supervision (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60307250 - ProQual Level 3 Diploma in Shoring and Pipe Laying Operations&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60306701 - ProQual Level 3 NVQ Diploma in Wood Occupations (Construction)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60325902 - SQA Level 3 Diploma In Thermal Insulation&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60115622 - TLM Level 3 Diploma for Designing, Engineering and Constructing a Sustainable Built Environment&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60320527 - TQUK Level 3 Certificate in Design, Engineer, Construct! The Digital Built Environment (RQF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60319938 - TQUK Level 3 Diploma in Design, Engineer, Construct! The Digital Built Environment (RQF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60308229 - WJEC Level 3 Applied Diploma in Professional Construction Practice&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6032241X - AIM Qualifications Level 2 Extended Certificate in Applied Science and Engineering&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">50099929 - City & Guilds Level 2 Certificate in Electrical Power Engineering - Distribution and Transmission Technical Knowledge &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60008805 - City & Guilds Level 2 Certificate in Engineering &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60057403 - City & Guilds Level 2 Certificate In Forgework &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60023041 - City & Guilds Level 2 Certificate in Marine Construction, Systems Engineering and Maintenance &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60317048 - City & Guilds Level 2 Diploma in Advanced Manufacturing Engineering (Foundation Competence)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60303487 - City & Guilds Level 2 Diploma in Boatbuilding (Foundation)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60008817 - City & Guilds Level 2 Diploma in Engineering&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60322378 - City & Guilds Level 2 Diploma in Marine Engineering (Foundation)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">50074738 - City & Guilds Level 2 NVQ Diploma in Business-Improvement Techniques &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60094710 - City & Guilds Level 2 NVQ Diploma in Performing Engineering Operations &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6030294X - City & Guilds Level 2 Technical Certificate in Engineering&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60305861 - EAL Level 2 Certificate in Cycle Maintenance&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6033194X - EAL Level 2 Certificate in Engineering Operations (Knowledge)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60156703 - EAL Level 2 Certificate In Engineering Technologies&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6006724X - EAL Level 2 Diploma In Electrical Installation &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60331951 - EAL Level 2 Diploma in Engineering Operations (Knowledge)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60156697 - EAL Level 2 Diploma In Engineering Technologies&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">50075950 - EAL Level 2 Diploma in Engineering Technology&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60190346 - EAL Level 2 Diploma in Machining (Foundation Knowledge)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6006867X - EAL Level 2 First Certificate in Engineering Technology &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60145614 - EAL Level 2 Intermediate Diploma in Electrical Installation&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">5010147X - EAL Level 2 NVQ Diploma in Engineering Maintenance and Installation&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60082641 - EAL Level 2 NVQ Diploma in Performing Engineering Operations&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60357009 - ETCAL Level 2 Certificate in Rail Engineering (Technical Knowledge)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60349803 - ETCAL Level 2 Diploma in Engineering Operations (Skills)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60132000 - Highfield Level 2 NVQ Diploma in Business Improvement Techniques (RQF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60026571 - IMI Level 2 Diploma in Motorsport Vehicle Maintenance and Repair (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6031297X - NOCN Level 2 Certificate in Techniques for Lean Organisation Management &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60306877 - NOCN Level 2 NVQ Diploma in Business Improvement Techniques &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6030649X - NOCN Level 2 NVQ Diploma in Performing Engineering Operations &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60304224 - OCR Level 2 Cambridge Technical Certificate in Engineering&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60304236 - OCR Level 2 Cambridge Technical Diploma in Engineering&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60363514 - Pearson BTEC Level 2 Certificate in Engineering Operations (Knowledge)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60336377 - Pearson BTEC Level 2 Diploma in Aerospace and Aviation Engineering (Foundation Knowledge)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60002141 - Pearson BTEC Level 2 Diploma in Blacksmithing and Metalworking&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60347223 - Pearson BTEC Level 2 Diploma in Engineering Operations (Knowledge) &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6034863X - Pearson BTEC Level 2 Diploma in Machining (Foundation Knowledge)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60325720 - Pearson BTEC Level 2 Diploma in Rail Engineering Operative (Foundation Competence)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">5008270X - Pearson BTEC Level 2 Extended Certificate in Engineering (Specialist: Manufacturing Engineering)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">50106594 - Pearson Edexcel Level 2 NVQ Diploma in Performing Manufacturing Operations&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60322433 - SEG Awards ABC Level 2 Certificate in Fabrication and Welding Practice&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60357514 - SEG Awards ABC Level 2 Certificate in Fabrication and Welding Techniques and Skills&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60145353 - City & Guilds Level 3 Advanced Technical Certificate In Engineering&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60320680 - City & Guilds Level 3 Diploma in Aviation Maintenance (Military Development Competence)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60008829 - City & Guilds Level 3 Diploma in Engineering &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60347260 - City & Guilds Level 3 Diploma in Marine Engineering (Advanced)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60324260 - City & Guilds Level 3 Diploma in Maritime Defence (Development Knowledge)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60145638 - EAL Level 3 Advanced Diploma in Electrical Installation&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6014564X - EAL Level 3 Advanced Diploma in Engineering Technology&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60322962 - EAL Level 3 Certificate in Robotics and Automation&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60158013 - EAL Level 3 Diploma In Engineering Technologies&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60157999 - EAL Level 3 Subsidiary Diploma in Engineering Technologies&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60339676 - ECITB Level 2 Diploma in Lifting and Positioning Engineering Construction Loads (RQF) &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60325458 - ECITB Level 3 Certificate in Nuclear Engineering & Science (RQF) &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60325501 - ECITB Level 3 Diploma in Nuclear Engineering & Science (RQF) &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60145936 - OCR Level 3 Cambridge Technical Certificate in Engineering Principles&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60145948 - OCR Level 3 Cambridge Technical Extended Certificate in Engineering&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6014600X - OCR Level 3 Cambridge Technical Foundation Diploma in Engineering &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60038883 - Pearson BTEC Level 3 90-credit Diploma in Engineering (QCF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6019053X - Pearson BTEC Level 3 Award in Advanced Manufacturing Engineering (Development Technical Knowledge)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60190498 - Pearson BTEC Level 3 Certificate in Advanced Manufacturing Engineering (Development Technical Knowledge)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60350283 - Pearson BTEC Level 3 Diploma in Machining (Development Knowledge)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60325379 - Pearson BTEC Level 3 Diploma in Rail Engineering Technician Knowledge&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60358403 - Pearson BTEC Level 3 Foundation Award in Advanced Manufacturing Engineering (Development Technical Knowledge)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60311976 - Pearson BTEC Level 3 National Certificate in Engineering&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60175849 - Pearson BTEC Level 3 National Extended Certificate in Engineering&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60175916 - Pearson BTEC Level 3 NationalFoundationDiploma in Engineering&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">50078410 - Pearson BTEC Level 3 Subsidiary Diploma in Engineering (QCF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60311575 - ProQual Level 3 Diploma in Engineering Surveying&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60357575 - SEG  Awards ABC Level 3 Certificate in Fabrication and Welding Techniques and Skills&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60322585 - SEG Awards ABC Level 3 Certificate in Fabrication and Welding Practice&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60357605 - SEG Awards ABC Level 3 Certificate in Welding Techniques and Skills&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60322597 - SEG Awards ABC Level 3 Diploma in Fabrication and Welding Practice&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60357551 - SEG Awards ABC Level 3 Diploma in Fabrication and Welding Techniques and Skills&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60357617 - SEG Awards ABC Level 3 Diploma in Welding Techniques and Skills &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60356728 - TQUK Level 3 Diploma in Engineering (RQF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60307778 - WJEC Eduqas Level 3 Advanced GCE in Electronics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6030778X - WJEC Eduqas Level 3 Advanced Subsidiary GCE in Electronics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60322500 - AIM Qualifications Level 2 Extended Certificate in Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60302963 - City & Guilds Level 2 Technical Certificate in Healthcare, Care and Childcare&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60330181 - Focus Awards Level 2 Diploma in Care (RQF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60323991 - Gateway Qualifications Level 2 Certificate in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60365754 - Gateway Qualifications Level 2 Diploma in Health and Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60320345 - Gateway Qualifications Level 2 Diploma in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60101891 - Gateway Qualifications Level 2 Diploma In Skills for Health and Social Care (Adults and Children)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60325240 - IAO Level 2 Diploma in Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60352802 - iCQ Level 2 Certificate in Principles of Working with Individuals with Learning Disabilities&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60188546 - NCFE CACHE Level 2 Certificate in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60116870 - NCFE CACHE Level 2 Certificate in Principles of Working with Individuals with Learning Disabilities&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60326116 - NCFE CACHE Level 2 Diploma in Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60188558 - NCFE CACHE Level 2 Extended Diploma in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60332943 - NCFE CACHE Level 2 Technical Award in Health and Social Care &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60336092 - NOCN Level 2 Diploma in Care (England)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60303864 - OCR Level 2 Cambridge Technical Certificate in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60042217 - OCR Level 2 Cambridge Technical Diploma in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60303888 - OCR Level 2 Cambridge Technical Diploma in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60042242 - OCR Level 2 Cambridge Technical Extended Certificate in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60327625 - Pearson BTEC Level 2 Diploma in Care (England)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60351287 - QUALIFI Level 2 Diploma in Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60329324 - TQUK Level 2 Certificate in Principles of Working with Individuals with Learning Disabilities (RQF)                                               &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60174298 - TQUK Level 2 Certificate in Supporting Individuals with Learning Disabilities (RQF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60325549 - TQUK Level 2 Diploma in Care (RQF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60172071 - City & Guilds Level 3 Advanced Technical Diploma in Health and Care (540)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60326621 - City & Guilds Level 3 Diploma in Adult Care &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60325355 - IAO Level 3 Diploma in Adult Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60324673 - IAO Level 3 Diploma in Healthcare Support&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60327637 - iCQ Level 3 Diploma in Adult Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60329130 - NCFE CACHE Level 3 Applied General Award in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60329142 - NCFE CACHE Level 3 Applied General Certificate in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60161085 - NCFE CACHE Level 3 Award in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60326189 - NCFE CACHE Level 3 Diploma in Adult Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60324144 - NCFE CACHE Level 3 Diploma in Healthcare Support &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60336109 - NOCN Level 3 Diploma in Adult Care (England) &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6017061X - OCR  Level 3 Cambridge Technical Foundation Diploma in Health and Social Care &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60042278 - OCR Level 3 Cambridge Technical Certificate in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60170591 - OCR Level 3 Cambridge Technical Certificate in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60170608 - OCR Level 3 Cambridge Technical Extended Certificate in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">50093162 - Pearson BTEC Level 3 Certificate in Health and Social Care (QCF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60327649 - Pearson BTEC Level 3 Diploma in Adult Care (England)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60324624 - Pearson BTEC Level 3 Diploma in Healthcare Support&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60171935 - Pearson BTEC Level 3 National Certificate in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60171972 - Pearson BTEC Level 3 National Extended Certificate in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60171996 - Pearson BTEC Level 3 National Foundation Diploma in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60308199 - Qualifi Level 3 Diploma in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60070043 - SFJ Awards IQ Level 3 Diploma in Health and Social Care (Adults) for England&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60325537 - TQUK Level 3 Diploma in Adult Care (RQF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60324946 - TQUK Level 3 Diploma in Healthcare Support (RQF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6033082X - TQUK Level 3 Diploma in Healthcare Support Services (RQF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60308564 - WJEC Level 3 Applied Certificate in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60308576 - WJEC Level 3 Applied Diploma in Health and Social Care&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">50112909 - Pearson BTEC Level 2 Diploma in Professional Competence for IT and Telecoms Professionals&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60305101 - Pearson BTEC Level 2 Technical Certificate in IT Support&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60308783 - Pearson BTEC Level 2 Technical Diploma in Digital Technology&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60145699 - AQA Level 3 Advanced GCE in Computer Science&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60146990 - AQA Level 3 Advanced Subsidiary GCE in Computer Science&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6017125X - AQA Level 3 Foundation Technical Level IT: Scripting and App Programming&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60171261 - AQA Level 3 Foundation Technical Level IT: Technical Support&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">50102771 - City & Guilds Level 3 Diploma in ICT Systems and Principles for IT Professionals&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60367623 - Gateway Qualifications Level 3 Certificate in Digital Engineering Design&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60367647 - Gateway Qualifications Level 3 Certificate in Digital Product Design&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60367660 - Gateway Qualifications Level 3 Certificate in Games Technologies&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60367684 - Gateway Qualifications Level 3 Certificate in Networking and Cybersecurity&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60367726 - Gateway Qualifications Level 3 Certificate in Software Development&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6036774X - Gateway Qualifications Level 3 Certificate in Systems Infrastructure&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60367635 - Gateway Qualifications Level 3 Diploma in Digital Engineering Design&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60367659 - Gateway Qualifications Level 3 Diploma in Digital Product Design&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60367672 - Gateway Qualifications Level 3 Diploma in Games Technologies&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60367696 - Gateway Qualifications Level 3 Diploma in Networking and Cybersecurity&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60367738 - Gateway Qualifications Level 3 Diploma in Software Development&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60367751 - Gateway Qualifications Level 3 Diploma in Systems Infrastructure&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60064079 - NCC Education Level 3 Diploma in Computing&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60357939 - NCFE Level 3 Certificate in Coding Practices&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60357629 - NCFE Level 3 Certificate in Cyber Security Practices&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60149115 - OCR Level 3 Advanced GCE in Computer Science&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60150300 - OCR Level 3 Advanced Subsidiary GCE in Computer Science&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60170979 - OCR Level 3 Cambridge Technical Certificate in IT&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60170980 - OCR Level 3 Cambridge Technical Extended Certificate in IT&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60171005 - OCR Level 3 Cambridge Technical Foundation Diploma in IT &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60170992 - OCR Level 3 Cambridge Technical Introductory Diploma in IT &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60304467 - Pearson BTEC Level 3 National Certificate in Computing&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60175746 - Pearson BTEC Level 3 National Certificate in Information Technology&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60173415 - Pearson BTEC Level 3 National Extended Certificate in Computing &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60175758 - Pearson BTEC Level 3 National Extended Certificate in Information Technology&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60173439 - Pearson BTEC Level 3 National Foundation Diploma in Computing&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6017576X - Pearson BTEC Level 3 National Foundation Diploma in Information Technology&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60313869 - TLM Level 3 Certificate for Digital Professional Expert&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60150312 - WJEC Eduqas Level 3 Advanced GCE in Computer Science&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60153027 - WJEC Eduqas Level 3 Advanced Subsidiary GCE in Computer Science&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6031705X - City & Guilds Level 2 Diploma in Machining (Foundation Knowledge)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60354082 - ETCAL Level 2 Certificate for Manufacturing Operatives&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60328794 - FDQ Level 2 Diploma in Bakery&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60303001 - NOCN Level 2 NVQ Diploma in Performing Manufacturing Operations &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60328976 - OAL Level 2 Diploma in Butchery&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60301272 - OAL Level 2 Diploma in Food and Drink Operations&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60343448 - Pearson BTEC Level 2 Diploma in Manufacturing (Knowledge and Skills)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60311046 - AQA Level 3 Advanced GCE in Design and Technology: Fashion and Textiles&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60311332 - AQA Level 3 Advanced GCE in Design and Technology: Product Design&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60311071 - AQA Level 3 Advanced Subsidiary GCE in Design and Technology: Fashion and Textiles&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60311083 - AQA Level 3 Advanced Subsidiary GCE in Design and Technology: Product Design&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60317000 - City & Guilds Level 3 Diploma in Advanced Manufacturing Engineering (Development Competence) - Machining&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60317061 - City & Guilds Level 3 Diploma in Machining (Development Knowledge)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60068668 - FDQ  Level 3 Diploma In Professional Bakery&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60311319 - OCR Level 3 Advanced GCE in Design and Technology (Design Engineering / Fashion and Textiles / Product Design)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60307602 - OCR Level 3 Advanced Subsidiary GCE in Design and Technology (Design Engineering / Fashion and Textiles / Product Design)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6030697X - Pearson Edexcel Level 3 Advanced GCE in Design and Technology (Product Design)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60311782 - WJEC Eduqas Level 3 Advanced GCE in Design and Technology (Fashion and Textiles/Product Design)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60311745 - WJEC Eduqas Level 3 Advanced Subsidiary GCE in Design and Technology (Fashion and Textiles/Product Design)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60331045 - AQA Level 2 Certificate in Further Maths&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60318417 - AQA Level 3 Advanced GCE in Further Mathematics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60311642 - AQA Level 3 Advanced GCE in Mathematics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60316044 - AQA Level 3 Advanced Subsidiary GCE in Further Mathematics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60311654 - AQA Level 3 Advanced Subsidiary GCE in Mathematics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60149450 - AQA Level 3 Certificate in Mathematical Studies&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">10060108 - CCEA Advanced GCE in Further Mathematics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">10034328 - CCEA Advanced GCE in Mathematics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60147088 - City & Guilds Level 3 Certificate in Using and Applying Mathematics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6033437X - NCFE Level 3 Certificate in Mathematics for Everyday Life&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60313250 - OCR Level 3 Advanced GCE in Further Mathematics A &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6031364X - OCR Level 3 Advanced GCE in Further Mathematics B (MEI)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60310388 - OCR Level 3 Advanced GCE in Mathematics A &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60310029 - OCR Level 3 Advanced GCE in Mathematics B (MEI)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60313298 - OCR Level 3 Advanced Subsidiary GCE in Further Mathematics A&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60313900 - OCR Level 3 Advanced Subsidiary GCE in Further Mathematics B (MEI)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60309337 - OCR Level 3 Advanced Subsidiary GCE in Mathematics A &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6030991X - OCR Level 3 Advanced Subsidiary GCE in Mathematics B (MEI)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60147830 - OCR Level 3 Certificate in Core Maths A (MEI)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60147829 - OCR Level 3 Certificate in Core Maths B (MEI)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60339147 - Pearson Edexcel Advanced Extension Award in Mathematics &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60314990 - Pearson Edexcel Level 3 Advanced GCE in Further Mathematics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6031333X - Pearson Edexcel Level 3 Advanced GCE in Mathematics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60322603 - Pearson Edexcel Level 3 Advanced GCE in Statistics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60313456 - Pearson Edexcel Level 3 Advanced Subsidiary GCE in Further Mathematics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60313079 - Pearson Edexcel Level 3 Advanced Subsidiary GCE in Mathematics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60148573 - Pearson Edexcel Level 3 Certificate in Mathematics in Context&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60124349 - City & Guilds Level 3 Diploma In  Dental Nursing &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60122511 - NCFE CACHE Level 3 Diploma in the Principles and Practice of Dental Nursing&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60361669 - Pearson BTEC Level 2 Certificate in the Principles and Practice for Pharmacy Support Staff&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60356790 - GA Level 3 Certificate in Anatomy, Physiology and Pathology&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60146254 - AQA Level 3 Advanced GCE in Biology&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60157318 - AQA Level 3 Advanced GCE in Chemistry&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60147477 - AQA Level 3 Advanced GCE in Physics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60146242 - AQA Level 3 Advanced Subsidiary GCE in Biology&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60157306 - AQA Level 3 Advanced Subsidiary GCE in Chemistry&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60147465 - AQA Level 3 Advanced Subsidiary GCE in Physics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60142601 - OCR Level 3 Advanced GCE in Biology A&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60147209 - OCR Level 3 Advanced GCE in Biology B (Advancing Biology)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60152552 - OCR Level 3 Advanced GCE in Chemistry A&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60153714 - OCR Level 3 Advanced GCE in Chemistry B (Salters)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6014743X - OCR Level 3 Advanced GCE in Physics A&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60147453 - OCR Level 3 Advanced GCE in Physics B (Advancing Physics)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60142613 - OCR Level 3 Advanced Subsidiary GCE in Biology A&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60147210 - OCR Level 3 Advanced Subsidiary GCE in Biology B (Advancing Biology)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60152564 - OCR Level 3 Advanced Subsidiary GCE in Chemistry A&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60154469 - OCR Level 3 Advanced Subsidiary GCE in Chemistry B (Salters)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60147428 - OCR Level 3 Advanced Subsidiary GCE in Physics A&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60147441 - OCR Level 3 Advanced Subsidiary GCE in Physics B (Advancing Physics)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60152990 - Pearson Edexcel Level 3 Advanced GCE in Biology A (Salters-Nuffield)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60153015 - Pearson Edexcel Level 3 Advanced GCE in Biology B&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60156466 - Pearson Edexcel Level 3 Advanced GCE in Chemistry&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60148482 - Pearson Edexcel Level 3 Advanced GCE in Physics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60152989 - Pearson Edexcel Level 3 Advanced Subsidiary GCE in Biology A (Salters-Nuffield)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60153003 - Pearson Edexcel Level 3 Advanced Subsidiary GCE in Biology B&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60156478 - Pearson Edexcel Level 3 Advanced Subsidiary GCE in Chemistry&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60148470 - Pearson Edexcel Level 3 Advanced Subsidiary GCE in Physics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60157069 - WJEC Eduqas Level 3 Advanced GCE in Biology&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60156454 - WJEC Eduqas Level 3 Advanced GCE in Chemistry&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6015522X - WJEC Eduqas Level 3 Advanced GCE in Physics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60157057 - WJEC Eduqas Level 3 Advanced Subsidiary GCE in Biology&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60155012 - WJEC Eduqas Level 3 Advanced Subsidiary GCE in Chemistry&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60155218 - WJEC Eduqas Level 3 Advanced Subsidiary GCE in Physics&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60318983 - AIM Qualifications Level 2 Extended Certificate in Skills for Working in Transport and Logistics Industries&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">5004039X - City & Guilds Level 2 Certificate in Air Cabin Crew (New Entrant)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">6035494X - City & Guilds Level 2 Certificate in Aviation Maintenance&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60011774 - City & Guilds Level 2 Certificate in Light Vehicle Maintenance and Repair Principles &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">50040431 - City & Guilds Level 2 Diploma in Air Cabin Crew (New Entrant)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">50104949 - City & Guilds Level 2 Diploma in Aviation Environment &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60311708 - City & Guilds Level 2 Diploma in Rail Engineering Operative Competence&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60308461 - City & Guilds Level 2 Diploma in Rail Engineering Operative Knowledge&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">50107483 - City & Guilds Level 2 Diploma in Vehicle Fitting Principles &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60012833 - EAL Level 2 Certificate in Stevedoring Essentials&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60166320 - Highfield Level 2 NVQ Diploma in Passenger Carrying Vehicle Driving (Bus and Coach) (RQF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60330892 - IMI Level 2 Certificate in Automotive Maintenance&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60170347 - IMI Level 2 Certificate in Heavy Vehicle Maintenance (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60170335 - IMI Level 2 Certificate in Light Vehicle Maintenance (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60170487 - IMI Level 2 Certificate in Motorcycle Maintenance (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60170499 - IMI Level 2 Certificate in Vehicle Accident Repair - Body (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60170682 - IMI Level 2 Certificate in Vehicle Accident Repair - Paint (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60064523 - IMI Level 2 Certificate in Vehicle Component Fitting (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60171625 - IMI Level 2 Diploma in Auto-Electrical and Mobile Electrical Operations (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60170645 - IMI Level 2 Diploma in Motorsport Maintenance (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60171637 - IMI Level 2 Diploma in Vehicle Accident Repair - Multi-skilled (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">50112132 - IMI Level 2 Diploma in Vehicle Inspection (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60094813 - IMI Level 2 Subsidiary Diploma in Light Vehicle Maintenance & Repair Technology (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60189940 - NCFE Level 2 Certificate in Aviation&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60189964 - NCFE Level 2 Diploma in Aviation&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">50109911 - Pearson Edexcel Level 2 NVQ Diploma in Passenger Carrying Vehicle Driving (Bus and Coach)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60029663 - SEG Awards ABC Level 2 Certificate In Motor Vehicle Studies &nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60029572 - SEG Awards ABC Level 2 Diploma In Motor Vehicle Studies&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60348926 - SQA Level 2 Certificate in Maritime Studies&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60348938 - SQA Level 2 Diploma in Maritime Studies&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60304017 - City & Guilds Level 3 Diploma in Rail Engineering Technician Knowledge&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60172381 - IMI Level 3 Diploma in Auto-Electrical and Mobile Electrical Operations (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60173270 - IMI Level 3 Diploma in Heavy Vehicle Maintenance (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60173245 - IMI Level 3 Diploma in Light Vehicle Maintenance (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60173282 - IMI Level 3 Diploma in Motorcycle Maintenance (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60173233 - IMI Level 3 Diploma in Vehicle Accident Repair - Multi-Skilled (VRQ)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60333601 - Open Awards Level 3 Certificate in Maritime Studies (RQF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60064389 - Pearson BTEC Level 3 Subsidiary Diploma in Aviation Operations (QCF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60043441 - Pearson BTEC Level 3 Subsidiary Diploma in Vehicle Technology (QCF)&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    <p style="display: none" class="hvq">60349463 - SQA Level 3 Diploma in Maritime Studies&nbsp;&nbsp;&nbsp;<i style="color: darkgreen" class="fas fa-check"></i></p>
+    
+    <p id="nomatch" style="display: none">No matching qualification found</p>
+    
+    </div>
+    </div>
+    </div>
+    
+    <script>
+    function qualSearch() {
+      let aim = document.getElementById("aimref").value
+      let url = "https://www.qualifications.education.gov.uk/Qualification/" + aim
+      
+      if (aim.length != 8) {
+          alert("Must be an 8 digit aim ref!");
+      }
+      else {
+        window.open(url,'_blank')
+      }      
+    }
+
+    function falaSearch() {
+      let aim = document.getElementById("aimref").value
+      let url = "https://findalearningaimbeta.fasst.org.uk/LearningAimDetails/" + aim
+      
+      if (aim.length != 8) {
+          alert("Must be an 8 digit aim ref!");
+      }
+      else {
+        window.open(url,'_blank')
+      }      
+    }
+    
+    function highvalueSearch() {
+      var results = document.getElementById('hvqList');
+      var list = document.getElementsByClassName('hvq');
+      var item = document.getElementsByClassName('hvq');
+      var input = document.getElementById('aimref');
+      var message = document.getElementById('nomatch');
+      var filter = input.value.toUpperCase();    
+      var string;
+    
+      if (input.value.length == 8) {
+        results.style.display = "block";
+      }
+      else {
+        results.style.display = "none";
+        alert("Must be an 8 digit aim ref!");
+      }
+    
+    
+      for (i = 0; i < item.length; i++) {
+    
+          string = list[i].innerHTML;
+    
+          if  (
+              string.toUpperCase().indexOf(filter) > -1
+              )
+          {
+            item[i].style.display = "inline-block";
+            item[i].classList.add("displayed");
+          } else {
+            item[i].style.display = "none";
+            item[i].classList.remove("displayed");
+          }
+          }
+    
+        if (document.querySelectorAll('.displayed').length == 0) {
+          message.style.display = "block";
+        }
+        else {
+          message.style.display = "none";
+        }
+    
+    };
+    </script>
+</div>
 
                 
                 <style>
@@ -4410,7 +4892,7 @@ All regulated qualifications in the UK can be classified by level, and will also
     
     
 
-    <p><em>Last updated <a style="color: inherit" href="https://www.timeanddate.com/on-this-day/august/21">21 August 2021</a></em></p>
+    <p><em>Last updated <a style="color: inherit" href="https://www.timeanddate.com/on-this-day/august/25">25 August 2021</a></em></p>
       </div>
       <div class="column has-text-right">
         <p>

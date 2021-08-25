@@ -16,3 +16,5 @@ Answers:
 - Name: Local Flexibility
   Link: lf
 ---
+
+{{< qualcats >}}
