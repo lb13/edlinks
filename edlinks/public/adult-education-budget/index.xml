@@ -5,10 +5,6 @@
     <link>/adult-education-budget/</link>
     <description>Recent content in Adult Education Budget on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    
-	<atom:link href="/adult-education-budget/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-gb</language><atom:link href="/adult-education-budget/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

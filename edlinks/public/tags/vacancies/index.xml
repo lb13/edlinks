@@ -5,11 +5,7 @@
     <link>/tags/vacancies/</link>
     <description>Recent content in vacancies on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    
-	<atom:link href="/tags/vacancies/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-gb</language><atom:link href="/tags/vacancies/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recruit an apprentice (guidance)</title>
       <link>/resource/recruit-an-apprentice-guidance/</link>

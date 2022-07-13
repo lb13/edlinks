@@ -5,10 +5,6 @@
     <link>/t-levels/</link>
     <description>Recent content in T Levels on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    
-	<atom:link href="/t-levels/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-gb</language><atom:link href="/t-levels/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -5,11 +5,7 @@
     <link>/resource/</link>
     <description>Recent content in Resources on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    
-	<atom:link href="/resource/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-gb</language><atom:link href="/resource/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>16 to 19 bursary fund guide 2020 to 2021 academic year</title>
       <link>/resource/16-to-19-bursary-fund-guide-2020-to-2021-academic-year/</link>

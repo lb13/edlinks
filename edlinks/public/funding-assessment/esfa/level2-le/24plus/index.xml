@@ -5,10 +5,6 @@
     <link>/funding-assessment/esfa/level2-le/24plus/</link>
     <description>Recent content in Funding Assessment on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    
-	<atom:link href="/funding-assessment/esfa/level2-le/24plus/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-gb</language><atom:link href="/funding-assessment/esfa/level2-le/24plus/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

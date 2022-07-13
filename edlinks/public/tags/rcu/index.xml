@@ -5,11 +5,7 @@
     <link>/tags/rcu/</link>
     <description>Recent content in rcu on Education Funding UK</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    
-	<atom:link href="/tags/rcu/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-gb</language><atom:link href="/tags/rcu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MiDES Service</title>
       <link>/resource/mides-service/</link>
